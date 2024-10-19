@@ -5,6 +5,17 @@ health: 1500
 armor: 7
 hitSize: 12
 
+accel: 0.2
+drag: 0.03
+
+engineSize: 2
+crashDamageMultiplier: 1.5
+
+itemCapacity: 80
+mineSpeed: 2
+mineTier: 1
+buildSpeed: 1
+
 weapons: [
     {
         name: mechanical-dual-cannon

@@ -5,14 +5,23 @@ health: 1000
 armor: 10
 hitSize: 8
 
+accel: 0.2
+drag: 0.03
+
+crashDamageMultiplier: 1.5
+
+itemCapacity: 20
+mineSpeed: 1
+mineTier: 1
+
 weapons: [
     {
         rotate: false
         x: 0
         y: 0
-        reload: 7
+        reload: 12
         mirror: true
-        shootSound: sapped
+        shootSound: sap
 
         bullet: {
             type: SapBulletType

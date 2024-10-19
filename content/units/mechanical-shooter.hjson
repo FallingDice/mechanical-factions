@@ -5,6 +5,15 @@ health: 300
 armor: 5
 hitSize: 6
 
+accel: 0.2
+drag: 0.03
+
+crashDamageMultiplier: 1.5
+
+itemCapacity: 20
+mineSpeed: 1
+mineTier: 1
+
 weapons: [
     {
         name: mechanical-cannon
