@@ -7,6 +7,7 @@ hitSize: 12
 
 weapons: [
     {
+        name: mechanical-dual-cannon
         mirror: true
         x: 0
         y: 0
