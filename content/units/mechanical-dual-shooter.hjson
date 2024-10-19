@@ -10,7 +10,7 @@ drag: 0.03
 rotateSpeed: 2
 
 engineSize: 2
-engineOffset: 9.2
+engineOffset: 12.6
 crashDamageMultiplier: 1.5
 
 itemCapacity: 80

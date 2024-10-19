@@ -10,7 +10,7 @@ drag: 0.08
 rotateSpeed: 0.6
 
 engineSize: 4
-engineOffset: 9.2
+engineOffset: 12.6
 crashDamageMultiplier: 1.5
 
 omniMovement: false

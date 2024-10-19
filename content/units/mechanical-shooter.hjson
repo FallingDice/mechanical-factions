@@ -8,7 +8,7 @@ hitSize: 6
 accel: 0.2
 drag: 0.03
 rotateSpeed: 4
-engineOffset: 7.8
+engineOffset: 8.4
 
 crashDamageMultiplier: 1.5
 
