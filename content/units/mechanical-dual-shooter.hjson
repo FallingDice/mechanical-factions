@@ -21,16 +21,16 @@ weapons: [
         name: mechanical-dual-cannon
         mirror: true
         top: false
-        x: 4.3
+        x: 4.5
         y: 0
         reload: 20
-        ejectEffect: casing1
+        ejectEffect: casing2
         shootSound: cannon
         layerOffset: -0.01
 
         bullet: {
             type: BasicBulletType
-            damage: 6
+            damage: 15
             speed: 4.25
             width: 6
             height: 8
