@@ -9,7 +9,7 @@ accel: 0.2
 drag: 0.03
 rotateSpeed: 2
 
-engineSize: 2
+engineSize: 4
 engineOffset: 12.6
 crashDamageMultiplier: 1.5
 

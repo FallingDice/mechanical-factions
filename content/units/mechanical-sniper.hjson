@@ -3,13 +3,13 @@ flying: true
 speed: 0.8
 health: 3500
 armor: 10
-hitSize: 18
+hitSize: 24
 
 accel: 0.3
 drag: 0.08
 rotateSpeed: 0.6
 
-engineSize: 4
+engineSize: 5
 engineOffset: 12.6
 crashDamageMultiplier: 1.5
 
