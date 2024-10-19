@@ -7,6 +7,7 @@ hitSize: 8
 
 accel: 0.2
 drag: 0.03
+rotateSpeed: 2
 
 crashDamageMultiplier: 1.5
 
@@ -25,7 +26,7 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 20
+            damage: 50
             width: 0.55
             sapStrength: 0.85
             length: 30

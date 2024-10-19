@@ -7,6 +7,7 @@ hitSize: 6
 
 accel: 0.2
 drag: 0.03
+rotateSpeed: 2
 
 crashDamageMultiplier: 1.5
 
@@ -28,7 +29,7 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            damage: 15
+            damage: 25
             speed: 4.25
             width: 6
             height: 8
