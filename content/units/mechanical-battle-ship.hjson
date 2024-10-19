@@ -1,0 +1,98 @@
+type: flying
+flying: true
+speed: 0.6
+health: 75000
+armor: 10
+hitSize: 40
+
+accel: 0.5
+drag: 0.2
+rotateSpeed: 0.4
+
+engineSize: 7
+engineOffset: 22.6
+crashDamageMultiplier: 1.5
+
+omniMovement: false
+rotateMoveFirst: true
+
+weapons: [
+    {
+        name: mechanical-cannon
+        faceTarget: false
+        mirror: false
+        top: true
+        rotate: true
+        rotateSpeed: 0.6
+        x: 0
+        y: 0
+        reload: 1000
+        cooldownTime: 120
+        ejectEffect: casing5
+        shootSound: cannon
+
+        bullet: {
+            type: BasicBulletType
+            damage: 1000
+            speed: 20
+            width: 10
+            height: 16
+            lifetime: 25
+            trailWidth: 4
+            trailLength: 8
+            hitEffect: massiveExplosion
+            splashDamage: 100
+            splashDamageRadius: 100
+        }
+    },
+    {
+        reload: 10
+        shootSound: none
+        ejectEffect: none
+
+        bullet: {
+            type: BasicBulletType
+            damage: 0
+            instantDisappear: true
+            spawnUnit: dagger
+        }
+    },
+        {
+        reload: 20
+        shootSound: none
+        ejectEffect: none
+
+        bullet: {
+            type: BasicBulletType
+            damage: 0
+            instantDisappear: true
+            spawnUnit: nova
+        }
+    },
+        {
+        reload: 150
+        shootSound: none
+        ejectEffect: none
+        cooldownTime: 20
+
+        bullet: {
+            type: BasicBulletType
+            damage: 0
+            instantDisappear: true
+            spawnUnit: mace
+        }
+    },
+        {
+        reload: 300
+        shootSound: none
+        ejectEffect: none
+        cooldownTime: 40
+
+        bullet: {
+            type: BasicBulletType
+            damage: 0
+            instantDisappear: true
+            spawnUnit: pulsar
+        }
+    }
+]
