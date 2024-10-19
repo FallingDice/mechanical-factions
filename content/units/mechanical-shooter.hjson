@@ -1,6 +1,29 @@
 type: flying
 flying: true
-speed: 1.0
-health: 100
-armor: 1
-hitSize: 8
+speed: 1.8
+health: 300
+armor: 5
+hitSize: 6
+
+weapons: [
+    {
+        name: mechanical-cannon
+        mirror: false
+        x: 0
+        y: 0
+        reload: 30
+        ejectEffect: casing1
+        shootSound: cannon
+
+        bullet: {
+            type: BasicBulletType
+            damage: 6
+            speed: 4.25
+            width: 6
+            height: 8
+            lifetime: 40
+            trailWidth: 3
+            trailLength: 4.6
+        }
+    }
+]
