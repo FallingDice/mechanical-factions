@@ -7,13 +7,16 @@ hitSize: 6
 
 accel: 0.2
 drag: 0.03
-rotateSpeed: 2
+rotateSpeed: 4
 
 crashDamageMultiplier: 1.5
 
 itemCapacity: 20
 mineSpeed: 1
 mineTier: 1
+
+omniMovement: false
+rotateMoveFirst: true
 
 weapons: [
     {
