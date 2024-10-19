@@ -17,9 +17,6 @@ mineSpeed: 2
 mineTier: 1
 buildSpeed: 1
 
-omniMovement: false
-rotateMoveFirst: true
-
 weapons: [
     {
         name: mechanical-dual-cannon

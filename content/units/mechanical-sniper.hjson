@@ -1,0 +1,41 @@
+type: flying
+flying: true
+speed: 0.8
+health: 3500
+armor: 10
+hitSize: 18
+
+accel: 0.3
+drag: 0.08
+rotateSpeed: 1
+
+engineSize: 4
+crashDamageMultiplier: 1.5
+
+omniMovement: false
+rotateMoveFirst: true
+
+weapons: [
+    {
+        name: mechanical-dual-cannon
+        faceTarget: false
+        mirror: false
+        top: true
+        x: 0
+        y: 0
+        reload: 200
+        ejectEffect: casing4
+        shootSound: cannon
+
+        bullet: {
+            type: BasicBulletType
+            damage: 250
+            speed: 10
+            width: 10
+            height: 16
+            lifetime: 40
+            trailWidth: 4
+            trailLength: 8
+        }
+    }
+]

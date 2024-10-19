@@ -15,9 +15,6 @@ itemCapacity: 20
 mineSpeed: 1
 mineTier: 1
 
-omniMovement: false
-rotateMoveFirst: true
-
 weapons: [
     {
         name: mechanical-cannon
