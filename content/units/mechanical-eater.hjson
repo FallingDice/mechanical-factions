@@ -10,7 +10,7 @@ circleTarget: true
 accel: 0.2
 drag: 0.03
 rotateSpeed: 2
-engineOffset: 5.7
+engineOffset: 7.8
 
 crashDamageMultiplier: 1.5
 

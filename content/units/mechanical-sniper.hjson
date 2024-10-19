@@ -23,6 +23,7 @@ weapons: [
         mirror: false
         top: true
         rotate: true
+        rotateSpeed: 0.8
         x: 0
         y: 0
         reload: 400
