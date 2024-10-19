@@ -28,7 +28,7 @@ weapons: [
         y: 0
         reload: 1000
         cooldownTime: 120
-        ejectEffect: casing5
+        ejectEffect: casing4
         shootSound: cannon
 
         bullet: {
