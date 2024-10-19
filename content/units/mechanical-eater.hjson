@@ -19,7 +19,7 @@ weapons: [
             damage: 10
             width: 0.55
             sapStrength: 0.85
-            length: 10
+            length: 30
             lifetime: 20
             recoil: -1
             knockback: -1

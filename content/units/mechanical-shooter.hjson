@@ -9,6 +9,7 @@ weapons: [
     {
         name: mechanical-cannon
         mirror: false
+        top: false
         x: 0
         y: 0
         reload: 30

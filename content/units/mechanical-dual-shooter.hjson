@@ -9,7 +9,8 @@ weapons: [
     {
         name: mechanical-dual-cannon
         mirror: true
-        x: 0
+        top: false
+        x: 4
         y: 0
         reload: 20
         ejectEffect: casing1
