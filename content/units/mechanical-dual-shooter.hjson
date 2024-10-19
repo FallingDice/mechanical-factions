@@ -21,7 +21,7 @@ weapons: [
         name: mechanical-dual-cannon
         mirror: true
         top: false
-        x: 4
+        x: 4.3
         y: 0
         reload: 20
         ejectEffect: casing1
