@@ -27,7 +27,6 @@ weapons: [
         x: 0
         y: 0
         reload: 1000
-        cooldownTime: 120
         ejectEffect: casing4
         shootSound: cannon
 
@@ -73,7 +72,6 @@ weapons: [
         reload: 150
         shootSound: none
         ejectEffect: none
-        cooldownTime: 20
 
         bullet: {
             type: BasicBulletType
@@ -86,7 +84,6 @@ weapons: [
         reload: 300
         shootSound: none
         ejectEffect: none
-        cooldownTime: 40
 
         bullet: {
             type: BasicBulletType
