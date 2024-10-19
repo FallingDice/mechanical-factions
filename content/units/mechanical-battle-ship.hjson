@@ -1,8 +1,8 @@
 type: flying
 flying: true
 speed: 0.6
-health: 75000
-armor: 10
+health: 50000
+armor: 5
 hitSize: 40
 
 accel: 0.5
@@ -10,7 +10,7 @@ drag: 0.2
 rotateSpeed: 0.4
 
 engineSize: 7
-engineOffset: 22.6
+engineOffset: 27.8
 crashDamageMultiplier: 1.5
 
 omniMovement: false

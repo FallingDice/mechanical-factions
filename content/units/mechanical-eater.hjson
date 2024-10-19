@@ -2,7 +2,7 @@ type: flying
 flying: true
 speed: 2.3
 health: 1000
-armor: 10
+armor: 8
 hitSize: 8
 
 circleTarget: true

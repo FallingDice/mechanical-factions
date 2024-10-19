@@ -2,7 +2,7 @@ type: flying
 flying: true
 speed: 0.8
 health: 3500
-armor: 10
+armor: 7
 hitSize: 24
 
 accel: 0.3
