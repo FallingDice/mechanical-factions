@@ -5,6 +5,8 @@ health: 1000
 armor: 10
 hitSize: 8
 
+circleTarget: true
+
 accel: 0.2
 drag: 0.03
 rotateSpeed: 2
