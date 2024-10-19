@@ -45,7 +45,7 @@ weapons: [
         }
     },
     {
-        reload: 10
+        reload: 40
         shootSound: none
         ejectEffect: none
 
@@ -58,7 +58,7 @@ weapons: [
         }
     },
         {
-        reload: 20
+        reload: 80
         shootSound: none
         ejectEffect: none
 
@@ -71,7 +71,7 @@ weapons: [
         }
     },
         {
-        reload: 150
+        reload: 600
         shootSound: none
         ejectEffect: none
 
@@ -84,7 +84,7 @@ weapons: [
         }
     },
         {
-        reload: 300
+        reload: 1200
         shootSound: none
         ejectEffect: none
 
