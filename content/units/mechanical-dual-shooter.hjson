@@ -10,11 +10,12 @@ weapons: [
         name: mechanical-dual-cannon
         mirror: true
         top: false
-        x: 4
+        x: 3
         y: 0
         reload: 20
         ejectEffect: casing1
         shootSound: cannon
+        layerOffset: -0.01
 
         bullet: {
             type: BasicBulletType
