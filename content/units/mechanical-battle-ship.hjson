@@ -45,7 +45,8 @@ weapons: [
         }
     },
     {
-        reload: 40
+        rotate: true
+        reload: 120
         shootSound: none
         ejectEffect: none
 
@@ -57,8 +58,9 @@ weapons: [
             spawnUnit: dagger
         }
     },
-        {
-        reload: 80
+    {
+        rotate: true
+        reload: 160
         shootSound: none
         ejectEffect: none
 
@@ -70,8 +72,9 @@ weapons: [
             spawnUnit: nova
         }
     },
-        {
-        reload: 600
+    {
+        rotate: true
+        reload: 900
         shootSound: none
         ejectEffect: none
 
@@ -83,7 +86,8 @@ weapons: [
             spawnUnit: mace
         }
     },
-        {
+    {
+        rotate: true
         reload: 1200
         shootSound: none
         ejectEffect: none
