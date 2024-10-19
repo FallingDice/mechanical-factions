@@ -7,9 +7,10 @@ hitSize: 18
 
 accel: 0.3
 drag: 0.08
-rotateSpeed: 1
+rotateSpeed: 0.6
 
 engineSize: 4
+engineOffset: 9.2
 crashDamageMultiplier: 1.5
 
 omniMovement: false
@@ -24,7 +25,7 @@ weapons: [
         rotate: true
         x: 0
         y: 0
-        reload: 200
+        reload: 400
         ejectEffect: casing4
         shootSound: cannon
 
