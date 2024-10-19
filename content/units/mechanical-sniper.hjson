@@ -17,10 +17,11 @@ rotateMoveFirst: true
 
 weapons: [
     {
-        name: mechanical-dual-cannon
+        name: mechanical-cannon
         faceTarget: false
         mirror: false
         top: true
+        rotate: true
         x: 0
         y: 0
         reload: 200
