@@ -18,7 +18,7 @@ rotateMoveFirst: true
 
 weapons: [
     {
-        name: mechanical-cannon
+        name: omura-cannon
         faceTarget: false
         mirror: false
         top: true
