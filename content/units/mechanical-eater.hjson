@@ -1,7 +1,7 @@
 type: flying
 flying: true
 speed: 2.3
-health: 800
+health: 600
 armor: 4
 hitSize: 8
 
@@ -30,7 +30,7 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 20
+            damage: 15
             width: 0.55
             sapStrength: 0.85
             length: 30
