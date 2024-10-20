@@ -1,6 +1,6 @@
 type: flying
 flying: true
-speed: 0.6
+speed: 0.1
 health: 50000
 armor: 5
 hitSize: 56
@@ -14,6 +14,8 @@ engineSize: 7
 engineOffset: 27.8
 crashDamageMultiplier: 1.5
 
+targetFlags: [core]
+
 omniMovement: false
 rotateMoveFirst: true
 
@@ -24,7 +26,7 @@ weapons: [
         mirror: false
         top: true
         rotate: true
-        rotateSpeed: 0.6
+        rotateSpeed: 0.2
         x: 0
         y: 0
         reload: 1000
@@ -33,11 +35,11 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            damage: 1000
-            speed: 20
+            damage: 10000
+            speed: 30
             width: 10
             height: 16
-            lifetime: 35
+            lifetime: 30
             trailWidth: 4
             trailLength: 8
             hitEffect: massiveExplosion
