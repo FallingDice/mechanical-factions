@@ -19,7 +19,7 @@ rotateMoveFirst: true
 
 weapons: [
     {
-        name: mechanical-railgun
+        name: mechanical-big-railgun
         faceTarget: false
         mirror: false
         top: true
