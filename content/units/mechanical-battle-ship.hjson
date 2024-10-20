@@ -8,6 +8,7 @@ hitSize: 40
 accel: 0.5
 drag: 0.2
 rotateSpeed: 0.4
+outlines: false
 
 engineSize: 7
 engineOffset: 27.8
@@ -18,7 +19,7 @@ rotateMoveFirst: true
 
 weapons: [
     {
-        name: ex-cannon
+        name: mechanical-railgun
         faceTarget: false
         mirror: false
         top: true
