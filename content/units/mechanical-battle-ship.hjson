@@ -37,7 +37,7 @@ weapons: [
             speed: 20
             width: 10
             height: 16
-            lifetime: 25
+            lifetime: 35
             trailWidth: 4
             trailLength: 8
             hitEffect: massiveExplosion
