@@ -7,7 +7,7 @@ hitSize: 56
 
 accel: 0.5
 drag: 0.2
-rotateSpeed: 0.4
+rotateSpeed: 0.1
 outlines: false
 
 engineSize: 7
@@ -26,7 +26,7 @@ weapons: [
         mirror: false
         top: true
         rotate: true
-        rotateSpeed: 0.2
+        rotateSpeed: 0.4
         x: 0
         y: 0
         reload: 1000
