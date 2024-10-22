@@ -27,8 +27,7 @@ shoot: {
   shots: 3
   shotDelay: 5
 }
-ammoTypes: {
-  flesh: {
+
     type: BasicBulletType
     width: 11
     height: 11
@@ -39,5 +38,3 @@ ammoTypes: {
     trailLength: 5
     makeFire: true
     knockback: 0.8
-  }
-}
