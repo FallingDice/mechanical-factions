@@ -7,10 +7,9 @@ hitSize: 8
 outlines: false
 
 crashDamageMultiplier: 1.5
+aiController: SuicideAI
 
 itemCapacity: 5
-
-aiController: SuicideAI
 
 weapons: [
     {
@@ -27,13 +26,11 @@ weapons: [
             width: 0.55
             sapStrength: 0.2
             length: 10
-            recoil: -0.5
             lifetime: 20
             knockback: -0.5
             healPercent: 1
             collidesTeam: true
 
-            maxRange: 200
             rangeOverride: 200
         }
     }
