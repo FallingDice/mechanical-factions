@@ -29,6 +29,9 @@ weapons: [
             length: 10
             lifetime: 20
             knockback: -0.5
+            healPercent: 1
+            collidesTeam: true
+
             maxRange: 200
             rangeOverride: 200
         }
@@ -40,6 +43,6 @@ abilities: [
         type: RepairFieldAbility
       range: 60
       amount: 20
-      reload: 200
+      reload: 300
     }
 ]
