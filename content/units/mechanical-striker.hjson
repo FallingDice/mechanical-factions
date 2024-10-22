@@ -1,13 +1,15 @@
+aiController: SuicideAI
+
 type: mech
 flying: false
 health: 240
 armor: 2
 hitSize: 8
+range: 80
 
 outlines: false
 
 crashDamageMultiplier: 1.5
-aiController: SuicideAI
 
 itemCapacity: 5
 
@@ -28,7 +30,7 @@ weapons: [
             length: 10
             lifetime: 20
             knockback: -0.5
-            rangeOverride: 200
+            rangeOverride: 100
         }
     }
 ]
