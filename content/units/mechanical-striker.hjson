@@ -31,7 +31,7 @@ weapons: [
             lifetime: 20
             knockback: -0.5
             splashDamage: 3
-            splashRange: 5
+            splashDamageRadius: 5
             rangeOverride: 100
         }
     }
