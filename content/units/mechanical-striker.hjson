@@ -1,6 +1,5 @@
 type: mech
 flying: false
-boost: true
 health: 100
 armor: 1
 hitSize: 8
