@@ -10,16 +10,19 @@ outlines: false
 crashDamageMultiplier: 1.5
 targetAir: false
 
-mechFrontSway: 1.2
+mechFrontSway: 0.55
 
 itemCapacity: 60
 
+
+#스프라이트가 포신이 하늘 방향을 바라보도록 할 예정임
 weapons: [
     {
         mirror: false
         x: 0
         y: -5
         reload: 80
+        recoil: 1
         ejectEffect: casing2
         shootSound: cannon
 
