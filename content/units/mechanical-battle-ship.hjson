@@ -120,3 +120,17 @@ weapons: [
         }
     }
 ]
+
+abilities: [
+    {
+        type: EnergyFieldAbility
+        damage: 60
+        range: 80
+        reload: 100
+
+        statusDuration: 60
+        maxTargets: 20
+        healPercent: 10
+        sameTypeHealMult: 0.5
+    }
+]
