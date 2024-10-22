@@ -1,4 +1,4 @@
-type: powerTurret
+type: PowerTurret
 category: turret
 health: 1000
 armor: 4
