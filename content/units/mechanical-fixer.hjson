@@ -1,13 +1,15 @@
+aiController: SuicideAI
+
 type: mech
 flying: false
 health: 160
 armor: 1
 hitSize: 8
+range: 160
 
 outlines: false
 
 crashDamageMultiplier: 1.5
-aiController: SuicideAI
 
 itemCapacity: 5
 
@@ -31,7 +33,7 @@ weapons: [
             healPercent: 1
             collidesTeam: true
 
-            rangeOverride: 200
+            rangeOverride: 100
         }
     }
 ]
