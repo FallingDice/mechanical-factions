@@ -1,1 +1,34 @@
 type: mech
+speed: 0.8
+health: 2000
+armor: 4
+hitSize: 16
+
+rotateSpeed: 0.5
+outlines: false
+
+crashDamageMultiplier: 1.5
+
+itemCapacity: 60
+
+weapons: [
+    {
+        mirror: false
+        x: 0
+        y: -5
+        reload: 80
+        ejectEffect: casing2
+        shootSound: cannon
+
+        bullet: {
+            type: BasicBulletType
+            damage: 25
+            speed: 4.25
+            width: 6
+            height: 8
+            lifetime: 40
+            trailWidth: 3
+            trailLength: 4.6
+        }
+    }
+]
