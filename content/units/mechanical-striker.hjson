@@ -7,6 +7,7 @@ hitSize: 8
 outlines: false
 
 crashDamageMultiplier: 1.5
+aiController: SuicideAI
 
 itemCapacity: 5
 
