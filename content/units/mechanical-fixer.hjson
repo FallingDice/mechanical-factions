@@ -10,6 +10,8 @@ crashDamageMultiplier: 1.5
 
 itemCapacity: 5
 
+aiController: SuicideAI
+
 weapons: [
     {
         rotate: false
