@@ -1,6 +1,6 @@
 type: mech
 flying: false
-health: 240
+health: 160
 armor: 1
 hitSize: 8
 
@@ -42,7 +42,7 @@ abilities: [
     {
         type: RepairFieldAbility
       range: 40
-      amount: 20
-      reload: 450
+      amount: 30
+      reload: 300
     }
 ]
