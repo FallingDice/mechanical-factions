@@ -26,10 +26,8 @@ weapons: [
             width: 0.55
             sapStrength: 0.2
             length: 10
-            recoil: -0.5
             lifetime: 20
             knockback: -0.5
-            maxRange: 200
             rangeOverride: 200
         }
     }
