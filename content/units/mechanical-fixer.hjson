@@ -16,7 +16,7 @@ itemCapacity: 5
 
 weapons: [
     {
-        rotate: false
+        rotate: true
         x: 4
         y: 0
         reload: 20
@@ -34,7 +34,7 @@ weapons: [
             healPercent: 1
             collidesTeam: true
             splashDamage: 3
-            splashDamageRadius: 5
+            splashDamageRadius: 10
             rangeOverride: 80
 
             collidesAir: false
