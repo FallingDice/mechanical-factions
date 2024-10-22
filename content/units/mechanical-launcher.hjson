@@ -24,17 +24,21 @@ weapons: [
         reload: 80
         recoil: 1
         ejectEffect: casing2
-        shootSound: cannon
+        shootSound: artillery
 
         bullet: {
-            type: BasicBulletType
-            damage: 25
-            speed: 4.25
-            width: 6
-            height: 8
-            lifetime: 40
+            type: ArtilleryBulletType
+            hitEffect: blastExplosion
+            knockback: 2
+            width: 20
+            height: 20
+            lifetime: 100
             trailWidth: 3
             trailLength: 4.6
+            collides: true
+            collidesTiles: true
+            splashDamageRadius: 35
+            splashDamage: 40
         }
     }
 ]
