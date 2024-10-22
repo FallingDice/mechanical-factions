@@ -17,20 +17,20 @@ itemCapacity: 5
 weapons: [
     {
         rotate: false
-        x: 0
+        x: 4
         y: 0
-        reload: 30
+        reload: 15
         mirror: true
         shootSound: sap
 
         bullet: {
             type: SapBulletType
-            damage: 10
+            damage: 5
             width: 0.55
             sapStrength: 0.85
             length: 10
             lifetime: 20
-            recoil: -1
+            recoil: -2
             knockback: -0.5
             maxRange: 200
             rangeOverride: 200
