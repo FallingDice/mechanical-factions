@@ -4,7 +4,6 @@ health: 1000
 armor: 4
 size: 2
 range: 120
-ammoPerShot: 2
 
 requirements: [
   scrap/1
@@ -28,7 +27,6 @@ shoot: {
   shotDelay: 5
 }
 
-    type: BasicBulletType
     width: 11
     height: 11
     speed: 5
