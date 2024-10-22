@@ -74,7 +74,7 @@ weapons: [
             rangeOverride: 480
             damage: 0
             instantDisappear: true
-            spawnUnit: dagger
+            spawnUnit: mechanical-striker
         }
     },
     {
