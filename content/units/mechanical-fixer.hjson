@@ -33,10 +33,11 @@ weapons: [
             knockback: -0.5
             healPercent: 1
             collidesTeam: true
-            splashDamage: 2
+            splashDamage: 3
             splashDamageRadius: 5
-
             rangeOverride: 100
+
+            collidesAir: true
         }
     }
 ]
