@@ -53,6 +53,12 @@ weapons: [
             lightningLength: 6
             lightningLengthRand: 3
             lightningDamage: 30
+
+            #test options
+            despawnUnit: crawler
+            despawnUnitCount: 5
+            despawnUnitRadius: 20
+
             shootEffect: {
                 type: WaveEffect
                 lifetime: 50
