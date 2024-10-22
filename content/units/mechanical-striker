@@ -1,0 +1,38 @@
+type: mech
+flying: false
+boost: true
+speed: 1.5
+health: 100
+armor: 1
+hitSize: 8
+
+circleTarget: false
+
+outlines: false
+
+crashDamageMultiplier: 1.5
+
+itemCapacity: 5
+
+weapons: [
+    {
+        rotate: false
+        x: 0
+        y: 0
+        reload: 15
+        mirror: true
+        shootSound: sap
+
+        bullet: {
+            type: SapBulletType
+            damage: 3
+            width: 0.55
+            sapStrength: 0.85
+            length: 10
+            lifetime: 20
+            recoil: -1
+            knockback: -0.5
+            rangeOverride: 200
+        }
+    }
+]
