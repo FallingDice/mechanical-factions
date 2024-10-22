@@ -4,7 +4,7 @@ health: 240
 armor: 2
 hitSize: 8
 
-circleTarget: false
+circleTarget: true
 
 outlines: false
 
