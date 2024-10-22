@@ -1,19 +1,25 @@
-type: PowerTurret
+type: itemTurret
 category: turret
 health: 1000
-armor: 4
-size: 2
-range: 120
+armor: 1
+size: 3
+range: 240
+minRange: 60
+targetAir: false
+ammoEjectBack: 5
+ammoUseEffect: casing3Double
+ammoPerShot: 2
 
 requirements: [
-  scrap/1
+  scrap/320
 ]
 
-shootSound: cannon
+shootSound: artillery
 forceMultiTarget: true
 
 reload: 120
-recoil: 1
+inaccuracy: 15
+recoil: 2
 shootCone: 30
 
 coolant: {
@@ -26,13 +32,19 @@ shoot: {
   shots: 3
   shotDelay: 5
 }
-
+ammoTypes: {
+  flesh: {
+    type: BasicBulletType
     width: 11
     height: 11
     speed: 5
     damage: 5
     lifetime: 80
+    splashDamage: 40
+    splashDamageRadius: 50
     trailWidth: 3
     trailLength: 5
     makeFire: true
     knockback: 0.8
+  }
+}
