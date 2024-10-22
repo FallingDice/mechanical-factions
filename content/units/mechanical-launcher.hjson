@@ -2,9 +2,9 @@ type: mech
 speed: 0.43
 health: 2000
 armor: 4
-hitSize: 16
+hitSize: 13
 
-rotateSpeed: 0.5
+rotateSpeed: 3
 outlines: false
 
 crashDamageMultiplier: 1.5
