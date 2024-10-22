@@ -26,7 +26,7 @@ weapons: [
             type: SapBulletType
             damage: 5
             width: 0.55
-            sapStrength: 0.85
+            sapStrength: 0.2
             length: 10
             lifetime: 20
             knockback: -0.5
