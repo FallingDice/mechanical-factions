@@ -32,6 +32,8 @@ weapons: [
             knockback: -0.5
             healPercent: 1
             collidesTeam: true
+            splashDamage: 2
+            splashRange: 5
 
             rangeOverride: 100
         }
