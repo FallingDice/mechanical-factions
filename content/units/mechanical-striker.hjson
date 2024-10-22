@@ -1,4 +1,4 @@
-aiController: SuicideAI
+controller: SuicideAI
 
 type: mech
 flying: false
