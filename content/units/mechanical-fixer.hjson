@@ -41,7 +41,7 @@ weapons: [
 abilities: [
     {
         type: RepairFieldAbility
-      range: 60
+      range: 40
       amount: 20
       reload: 450
     }
