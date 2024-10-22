@@ -35,7 +35,7 @@ weapons: [
             splashDamageRadius: 5
             rangeOverride: 80
 
-            collidesAir: true
+            collidesAir: false
         }
     }
 ]
