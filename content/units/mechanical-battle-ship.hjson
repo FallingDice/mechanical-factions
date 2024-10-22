@@ -108,7 +108,7 @@ weapons: [
             rangeOverride: 160
             damage: 0
             instantDisappear: true
-            spawnUnit: mace
+            spawnUnit: mechanical-luncher
         }
     },
     {
