@@ -10,6 +10,7 @@ range: 160
 outlines: false
 
 crashDamageMultiplier: 1.5
+targetAir: false
 
 itemCapacity: 5
 
