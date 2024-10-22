@@ -23,7 +23,7 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 2
+            damage: 3
             width: 0.55
             sapStrength: 0.2
             length: 10
