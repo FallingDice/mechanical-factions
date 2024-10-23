@@ -11,7 +11,7 @@ rotateSpeed: 0.1
 outlines: false
 
 engineSize: 7
-engineOffset: 77.8
+engineOffset: 60
 crashDamageMultiplier: 1.5
 
 targetFlags: [core]
