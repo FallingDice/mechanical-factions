@@ -7,6 +7,10 @@ outlines: false
 
 crashDamageMultiplier: 1.5
 
+shoot: {
+  firstShotDelay: 30
+}
+
 weapons: [
     {
         rotate: true
