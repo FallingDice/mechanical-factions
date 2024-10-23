@@ -2,7 +2,7 @@ type: itemTurret
 category: turret
 health: 900
 armor: 4
-size: 3
+size: 2
 range: 240
 minRange: 60
 ammoEjectBack: 2
