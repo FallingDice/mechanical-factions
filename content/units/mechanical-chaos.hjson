@@ -7,16 +7,13 @@ outlines: false
 
 crashDamageMultiplier: 1.5
 
-omniMovement: false
-rotateMoveFirst: true
-
 weapons: [
     {
         rotate: true
         mirror: false
         x: 0
         y: 0
-        reload: 150
+        reload: 100
         ejectEffect: casing1
         shootSound: cannon
 
