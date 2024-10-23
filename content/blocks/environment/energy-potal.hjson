@@ -1,4 +1,5 @@
 type: PowerTurret
+category: unit
 consumes: {}
 buildVisibility: sandboxOnly
 customShadow: true
@@ -27,20 +28,20 @@ shootEffect: {
 }  
 shootType: {
   damage: 20
-  width: 4
-  height: 4
-  speed: 7
-  lifetime: 40
+  width: 5
+  height: 5
+  speed: 10
+  lifetime: 180
   hommingPower: 0.05
-  deSpawnUnit: mechanical-striker
-  deSpawnCount: 3
+  despawnUnit: mechanical-chaos
+  despawnUnitCount: 3
+  despawnUnitRadius: 20
   despawnHit: true
   hitEffect: {
     type: ParticleEffect
     spin: -2.34
     colorFrom: e0d2a0
-    colorTo: 9a916e
-    region: asthosus-monolith-star
+    colorTo: 9a9160
     lifetime: 127
     sizeFrom: 7
     sizeTo: 1
