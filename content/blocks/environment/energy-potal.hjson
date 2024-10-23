@@ -1,1 +1,50 @@
-type: 
+type: PowerTurret
+consumes: {}
+buildVisibility: sandboxOnly
+customShadow: true
+drawTeamOverlay: true
+reload: 300
+size: 4
+alwaysShooting: true
+cooldownTime: 100
+shootSound: boom
+inaccuracy: 60
+
+shoot: {
+  type: ShootSpread
+  shots: 8
+  shotDelay: 18
+}
+shootEffect: {
+  type: WaveEffect
+  sizeFrom: 0
+  sizeTo: 66
+  strokeFrom: 0
+  strokeTo: 2.2
+  colorFrom: 8270c0
+  colorTo: 4e4277
+  lifetime: 143
+}  
+shootType: {
+  damage: 20
+  width: 4
+  height: 4
+  speed: 7
+  lifetime: 40
+  hommingPower: 0.05
+  deSpawnUnit: mechanical-striker
+  deSpawnCount: 3
+  despawnHit: true
+  hitEffect: {
+    type: ParticleEffect
+    spin: -2.34
+    colorFrom: e0d2a0
+    colorTo: 9a916e
+    region: asthosus-monolith-star
+    lifetime: 127
+    sizeFrom: 7
+    sizeTo: 1
+  }
+  hitSound: boom
+  despawnSound: boom
+}  
