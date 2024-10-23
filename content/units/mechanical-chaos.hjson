@@ -8,7 +8,7 @@ outlines: false
 crashDamageMultiplier: 1.5
 
 shoot: {
-  firstShotDelay: 100
+  firstShotDelay: 300
 }
 
 weapons: [
