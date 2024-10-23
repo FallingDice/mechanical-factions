@@ -40,7 +40,7 @@ weapons: [
             splashDamageRadius: 35
             splashDamage: 40
 
-            despawnUnit: crawler
+            despawnUnit: mechanical-chaos
         }
     }
 ]
