@@ -18,7 +18,7 @@ shoot: {
 }
 
 bulletType: {
- copper: {
+ scrap: {
   type: ArtilleryBulletType
   damage: 20
   width: 12
