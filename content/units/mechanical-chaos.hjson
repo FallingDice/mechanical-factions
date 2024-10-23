@@ -12,9 +12,11 @@ rotateMoveFirst: true
 
 weapons: [
     {
+        rotate: true
+        mirror: false
         x: 0
         y: 0
-        reload: 200
+        reload: 150
         ejectEffect: casing1
         shootSound: cannon
 
