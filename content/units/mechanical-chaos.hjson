@@ -1,1 +1,32 @@
 type: mech
+speed: 0.5
+health: 80
+hitSize: 8
+
+outlines: false
+
+crashDamageMultiplier: 1.5
+
+omniMovement: false
+rotateMoveFirst: true
+
+weapons: [
+    {
+        x: 0
+        y: 0
+        reload: 200
+        ejectEffect: casing1
+        shootSound: cannon
+
+        bullet: {
+            type: BasicBulletType
+            damage: 20
+            speed: 10
+            width: 10
+            height: 16
+            lifetime: 20
+            trailWidth: 4
+            trailLength: 8
+        }
+    }
+]
