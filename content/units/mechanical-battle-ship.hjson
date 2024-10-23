@@ -55,7 +55,7 @@ weapons: [
             lightningDamage: 30
 
             #test options
-            despawnUnit: crawler
+            despawnUnit: mechanical-chaos
             despawnUnitCount: 5
             despawnUnitRadius: 20
 
