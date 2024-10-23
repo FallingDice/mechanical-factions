@@ -23,8 +23,8 @@ ammoTypes: {
   damage: 20
   width: 12
   height: 12
-  speed: 0.5
-  lifetime: 600
+  speed: 1
+  lifetime: 6000
   knockback: 5
   hommingPower: 0.1
   despawnUnit: mechanical-striker
