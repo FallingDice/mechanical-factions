@@ -17,7 +17,7 @@ shoot: {
   shotDelay: 18
 }
 
-bulletType: {
+ammoTypes: {
  scrap: {
   type: ArtilleryBulletType
   damage: 20
