@@ -7,9 +7,6 @@ outlines: false
 
 crashDamageMultiplier: 1.5
 
-shoot: {
-  firstShotDelay: 500
-}
 
 weapons: [
     {
@@ -21,10 +18,13 @@ weapons: [
         ejectEffect: casing1
         shootSound: cannon
         shootOnDeath: true
+        shoot: {
+          firstShotDelay: 100
+        }
 
         bullet: {
             type: BasicBulletType
-            damage: 15
+            damage: 20
             speed: 5
             width: 5
             height: 5
