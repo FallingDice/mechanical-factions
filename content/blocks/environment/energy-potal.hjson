@@ -1,11 +1,10 @@
 type: ItemTurret
 category: units
-consumes: {}
-buildVisibility: sandboxOnly
-customShadow: true
-drawTeamOverlay: true
-reload: 300
+health: 3000
 size: 4
+range: 600
+
+reload: 300
 alwaysShooting: true
 cooldownTime: 100
 shootSound: boom
@@ -13,18 +12,18 @@ inaccuracy: 60
 
 shoot: {
   type: ShootSpread
-  shots: 8
-  shotDelay: 18
+  shots: 16
+  shotDelay: 24
 }
 
 ammoTypes: {
  scrap: {
   type: ArtilleryBulletType
-  damage: 20
-  width: 12
-  height: 12
-  speed: 1
-  lifetime: 6000
+  damage: 30
+  width: 16
+  height: 16
+  speed: 0.5
+  lifetime: 1200
   knockback: 5
   hommingPower: 0.1
   despawnUnit: mechanical-striker
@@ -35,3 +34,7 @@ ammoTypes: {
   despawnSound: boom
   }
 }  
+
+buildVisibility: sandboxOnly
+customShadow: true
+drawTeamOverlay: true
