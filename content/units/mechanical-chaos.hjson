@@ -27,6 +27,7 @@ weapons: [
             lifetime: 20
             trailWidth: 4
             trailLength: 8
+            despawnUnit: mechanical-chaos
         }
     }
 ]
