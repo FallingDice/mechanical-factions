@@ -4,9 +4,9 @@ health: 3000
 size: 4
 range: 1200
 
-reload: 600
+reload: 1200
 alwaysShooting: true
-cooldownTime: 300
+cooldownTime: 600
 shootSound: boom
 inaccuracy: 60
 
@@ -19,11 +19,11 @@ shoot: {
 ammoTypes: {
  scrap: {
   type: ArtilleryBulletType
-  damage: 30
+  damage: 50
   width: 16
   height: 16
-  speed: 5
-  lifetime: 1200
+  speed: 6
+  lifetime: 600
   knockback: 5
   hommingPower: 0.1
   despawnUnit: mechanical-striker
