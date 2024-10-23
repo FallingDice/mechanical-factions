@@ -24,7 +24,7 @@ shootType: {
   speed: 6
   lifetime: 40
   hommingPower: 0.1
-  despawnUnit: mechanical-fixer
+  despawnUnit: mechanical-striker
   despawnUnitCount: 3
   despawnUnitRadius: 20
   despawnHit: true
