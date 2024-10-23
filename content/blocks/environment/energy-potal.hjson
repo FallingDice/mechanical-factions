@@ -1,4 +1,4 @@
-type: PowerTurret
+type: ItemTurret
 category: units
 consumes: {}
 buildVisibility: sandboxOnly
@@ -17,17 +17,19 @@ shoot: {
   shotDelay: 18
 }
 
-shootType: {
-  type: LightningBulletType
-  lightningLength: 10
+bulletType: {
+  type: ArtilleryBulletType
   damage: 20
+  width: 12
+  height: 12
   speed: 0.5
   lifetime: 600
+  knockback: 5
   hommingPower: 0.1
   despawnUnit: mechanical-striker
   despawnUnitCount: 3
   despawnUnitRadius: 20
-  despawnHit: true
+  collidesTiles: false
   hitSound: boom
   despawnSound: boom
 }  
