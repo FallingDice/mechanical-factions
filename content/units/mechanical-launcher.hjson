@@ -21,7 +21,7 @@ weapons: [
         name: mechanical-launcher-cannon
         mirror: false
         x: 0
-        y: -5
+        y: -10
         reload: 80
         recoil: 1
         ejectEffect: casing2
