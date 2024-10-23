@@ -131,7 +131,7 @@ abilities: [
     {
         type: EnergyFieldAbility
         damage: 60
-        range: 80
+        range: 120
         reload: 100
 
         statusDuration: 60
