@@ -1,25 +1,23 @@
 type: itemTurret
 category: turret
-health: 1000
-armor: 1
+health: 900
+armor: 4
 size: 3
 range: 240
 minRange: 60
-targetAir: false
 ammoEjectBack: 2
-ammoPerShot: 2
+ammoPerShot: 3
 
 requirements: [
   scrap/320
 ]
 
-shootSound: artillery
+shootSound: cannon
 forceMultiTarget: true
 
 reload: 120
-inaccuracy: 15
-recoil: 2
-shootCone: 30
+inaccuracy: 5
+recoil: 1
 
 coolant: {
   type: ConsumeCoolant
@@ -34,15 +32,13 @@ shoot: {
 ammoTypes: {
   scrap: {
     type: BasicBulletType
-    width: 11
-    height: 11
-    speed: 5
-    damage: 5
-    lifetime: 80
-    splashDamage: 40
-    splashDamageRadius: 50
+    width: 7
+    height: 9
+    speed: 4.5
+    damage: 35
+    lifetime: 60
     trailWidth: 3
-    trailLength: 5
+    trailLength: 4.6
     makeFire: true
     knockback: 0.8
   }

@@ -18,6 +18,7 @@ itemCapacity: 60
 #스프라이트가 포신이 하늘 방향을 바라보도록 할 예정임
 weapons: [
     {
+        name: mechanical-launcher-cannon
         mirror: false
         x: 0
         y: -5

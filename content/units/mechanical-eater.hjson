@@ -1,3 +1,5 @@
+controller: SuicideAI
+
 type: flying
 flying: true
 speed: 2.3
@@ -24,8 +26,8 @@ weapons: [
         rotate: false
         x: 0
         y: 0
-        reload: 15
-        mirror: true
+        reload: 10
+        mirror: false
         shootSound: sap
 
         bullet: {
@@ -37,7 +39,6 @@ weapons: [
             lifetime: 20
             recoil: -1
             knockback: -1
-            maxRange: 200
             rangeOverride: 200
         }
     }
