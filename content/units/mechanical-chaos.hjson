@@ -21,13 +21,14 @@ weapons: [
         bullet: {
             type: BasicBulletType
             damage: 20
-            speed: 10
-            width: 10
-            height: 16
+            speed: 5
+            width: 5
+            height: 5
             lifetime: 20
-            trailWidth: 4
-            trailLength: 8
+            trailWidth: 2
+            trailLength: 3
             despawnUnit: mechanical-chaos
+            killShooter: true
         }
     }
 ]
