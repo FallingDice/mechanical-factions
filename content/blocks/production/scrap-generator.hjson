@@ -16,7 +16,7 @@ requirements: [
 
 outputItem: scrap/6
 
-craftTime: 60
+craftTime: 90
 craftEffect: blastExplosion
 craftSound: drillImpact
 
