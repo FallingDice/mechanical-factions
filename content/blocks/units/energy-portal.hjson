@@ -54,7 +54,6 @@ drawer: {
         },
         {
           type: HaloPart
-          tri: true
           radius: 2
           radiusTo: 3
           layer: 110
@@ -64,6 +63,32 @@ drawer: {
           haloRadiusTo: 36
           stroke: 0.5
           strokeTo: 1
+          shapes: 12
+          sides: 4
+          hollow: false
+        },
+        {
+          type: shapePart
+          hollow: true
+          circle: true
+          layer: 110
+          color: bf92f9
+          stroke: 1
+          strokeTo: 2
+          radiusTo: 16
+          radius: 8
+        },
+        {
+          type: HaloPart
+          radius: 1
+          radiusTo: 2
+          layer: 110
+          color: bf92f9
+          haloRotateSpeed: -1.2
+          haloRadius: 10
+          haloRadiusTo: 18
+          stroke: 1
+          strokeTo: 2
           shapes: 12
           sides: 4
           hollow: false
