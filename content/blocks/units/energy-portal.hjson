@@ -54,11 +54,12 @@ drawer: {
         },
         {
           type: HaloPart
+          tri: true
           radius: 2
           radiusTo: 3
           layer: 110
           color: bf92f9
-          haloRotateSpeed: 3
+          haloRotateSpeed: 0.6
           haloRadius: 20
           haloRadiusTo: 36
           stroke: 0.5
