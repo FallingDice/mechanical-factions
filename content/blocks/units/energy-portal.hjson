@@ -54,17 +54,18 @@ drawer: {
         },
         {
           type: HaloPart
-          radius: 16
+          radius: 20
+          radiusTo: 36
           layer: 110
           color: bf92f9
-          haloRotateSpeed: 0.9
-          haloRadius: 8
-          haloRadiusTo: 24
+          haloRotateSpeed: 3
+          haloRadius: 2
+          haloRadiusTo: 3
           stroke: 0.5
-          strokeTo: 2
-          shapes: 5
+          strokeTo: 1
+          shapes: 12
           sides: 4
-          hollow: true
+          hollow: false
         }
       ]
 }
