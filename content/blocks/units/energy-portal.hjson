@@ -62,9 +62,8 @@ drawer: {
           haloRadiusTo: 16
           stroke: 0.5
           strokeTo: 1
-          shapes: 4
+          shapes: 5
           hollow: true
-          circle: true
         }
       ]
 }
