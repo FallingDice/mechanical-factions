@@ -7,11 +7,11 @@ hasItems: true
 itemCapacity: 60
 
 requirements: [
+  copper/200
   lead/80
-  metaglass/60
-  titanium/80
-  thorium/10
-  silicon/40
+  metaglass/10
+  titanium/60
+  silicon/30
 ]
 
 outputItem: scrap/6
@@ -20,5 +20,5 @@ craftTime: 60
 craftEffect: blastExplosion
 craftSound: drillImpact
 
-research: sharded
+research: core-sharded
 researchCostMultiplier: 0.3
