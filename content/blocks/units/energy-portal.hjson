@@ -73,8 +73,8 @@ drawer: {
           circle: true
           layer: 110
           color: bf92f9
-          stroke: 1
-          strokeTo: 2
+          stroke: 0.5
+          strokeTo: 1
           radiusTo: 16
           radius: 8
         },
@@ -85,14 +85,27 @@ drawer: {
           layer: 110
           color: bf92f9
           haloRotateSpeed: -1.2
-          haloRadius: 14
+          haloRadius: 12
           haloRadiusTo: 22
-          stroke: 1
-          strokeTo: 2
+          stroke: 0.5
+          strokeTo: 1
           shapes: 12
           sides: 4
           hollow: false
-        }
+        },
+        {
+          type: HaloPart
+          radius: 4
+          radiusTo: 8
+          layer: 110
+          color: bf92f9
+          haloRotateSpeed: 0.3
+          haloRadius: 8
+          haloRadiusTo: 16
+          stroke: 0.5
+          strokeTo: 1
+          shapes: 2
+          hollow: true
       ]
 }
 
