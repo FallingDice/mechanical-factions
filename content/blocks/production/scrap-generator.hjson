@@ -1,0 +1,24 @@
+type: GenericCrafter
+category: crafting
+health: 900
+size: 3
+  
+hasItems: true
+itemCapacity: 60
+
+requirements: [
+  lead/80
+  metaglass/60
+  titanium/80
+  thorium/10
+  silicon/40
+]
+
+outputItem: scrap/6
+
+craftTime: 60
+craftEffect: blastExplosion
+craftSound: drillImpact
+
+research: sharded
+researchCostMultiplier: 0.3
