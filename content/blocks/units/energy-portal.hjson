@@ -36,7 +36,7 @@ ammoTypes: {
   }
 }  
 
-#추후 base 스프라이트를 에너지를 모으는 기계 프레임 느낌으로
+#추후 base 스프라이트를 에너지를 모으는 기계 프레임 느낌으로 (중심에는 블랙홀)
 drawer: {
   type: DrawTurret
   basePrefix: -base
