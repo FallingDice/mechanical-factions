@@ -43,3 +43,25 @@ ammoTypes: {
     knockback: 0.8
   }
 }
+
+drawer: {
+  type: DrawTurret
+   parts: [
+     {
+            type: RegionPart
+            progress: warmup
+            suffix: -cannon
+            mirror: false
+            under: true
+            moveY: 5
+            layerOffset: -0.01
+            moves: [
+              {
+                type: partMove
+                progress: recoil
+                y: -1
+              }
+            ]
+          }
+   ]
+}
