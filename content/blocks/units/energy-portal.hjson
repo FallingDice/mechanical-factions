@@ -59,8 +59,8 @@ drawer: {
           layer: 110
           color: bf92f9
           haloRotateSpeed: 3
-          haloRadius: 2
-          haloRadiusTo: 3
+          haloRadius: 0.2
+          haloRadiusTo: 0.4
           stroke: 0.5
           strokeTo: 1
           shapes: 12
