@@ -48,6 +48,7 @@ drawer: {
   type: DrawTurret
    parts: [
      {
+            y: -5
             type: RegionPart
             progress: warmup
             suffix: -cannon
