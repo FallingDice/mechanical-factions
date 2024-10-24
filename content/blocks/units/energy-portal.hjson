@@ -47,8 +47,8 @@ drawer: {
           circle: true
           layer: 110
           color: bf92f9
-          stroke: 0.5
-          strokeTo: 1
+          stroke: 0.1
+          strokeTo: 0.2
           radiusTo: 32
           radius: 16
         },
@@ -61,8 +61,8 @@ drawer: {
           haloRotateSpeed: 0.6
           haloRadius: 22
           haloRadiusTo: 38
-          stroke: 0.5
-          strokeTo: 1
+          stroke: 0.1
+          strokeTo: 0.2
           shapes: 24
           sides: 4
           hollow: false
@@ -73,8 +73,8 @@ drawer: {
           circle: true
           layer: 110
           color: bf92f9
-          stroke: 0.5
-          strokeTo: 1
+          stroke: 0.1
+          strokeTo: 0.2
           radiusTo: 16
           radius: 8
         },
@@ -87,8 +87,8 @@ drawer: {
           haloRotateSpeed: -1.2
           haloRadius: 12
           haloRadiusTo: 22
-          stroke: 0.5
-          strokeTo: 1
+          stroke: 0.1
+          strokeTo: 0.2
           shapes: 12
           sides: 4
           hollow: false
@@ -101,8 +101,8 @@ drawer: {
           color: bf92f9
           haloRotateSpeed: 0.3
           haloRadius: 0
-          stroke: 0.5
-          strokeTo: 1
+          stroke: 0.1
+          strokeTo: 0.2
           shapes: 2
           hollow: true
         }
