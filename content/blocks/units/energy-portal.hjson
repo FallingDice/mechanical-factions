@@ -106,6 +106,7 @@ drawer: {
           strokeTo: 1
           shapes: 2
           hollow: true
+        }
       ]
 }
 
