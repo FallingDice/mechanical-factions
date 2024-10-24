@@ -19,7 +19,8 @@ shoot: {
 ammoTypes: {
  scrap: {
   type: ArtilleryBulletType
-  damage: 50
+  splashDamageRadius: 30
+  splashDamage: 30
   width: 16
   height: 16
   speed: 6
