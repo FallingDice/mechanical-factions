@@ -63,6 +63,7 @@ drawer: {
           stroke: 0.5
           strokeTo: 1
           shapes: 5
+          sides: 8
           hollow: true
         }
       ]
