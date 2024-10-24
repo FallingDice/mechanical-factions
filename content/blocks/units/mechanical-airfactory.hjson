@@ -11,12 +11,12 @@ requirements: [
 plans: [
   {
     unit: mechanical-shooter
-    requirements: []
+    requirements: [scrap/60]
     time: 600
   },
   {
     unit: mechanical-eater
-    requirements: []
+    requirements: [scrap/60]
     time: 600
   }
 ]
