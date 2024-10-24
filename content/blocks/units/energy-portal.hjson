@@ -36,6 +36,15 @@ ammoTypes: {
   }
 }  
 
+drawer: {
+  type: DrawTurret
+  basePrefix: -base
+}
+
+shootY: 0.5
+
+solid: false
+customShadow: true
 buildVisibility: sandboxOnly
 customShadow: true
 drawTeamOverlay: true
