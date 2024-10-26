@@ -17,7 +17,7 @@ immunities: [wet, burning, melting]
 
 weapons: [
     {
-        rotate: true
+        rotate: false
         mirror: false
         x: 0
         y: 15
@@ -27,7 +27,7 @@ weapons: [
         ejectEffect: none
         shootSound: malignShoot
         loopSound: spellLoop
-        loopSoundVolume: 0.8
+        loopSoundVolume: 1.3
 
         shootWarmupSpeed: 0.04
         minWarmup: 0.9
@@ -41,18 +41,20 @@ weapons: [
         bullet: {
             type: FlakBulletType
             sprite: missile-large
-            knockback: 2
+            knockback: 3
             damage: 35
             speed: 6.5
             width: 6
             height: 11
-            lifetime: 45
+            lifetime: 30
             hitSize: 7
             shootEffect: shootSmokeSquareBig
             smokeEffect: shootSmokeDisperse
             frontColor: ffffff
+            backColor: bf92f9
             trailWidth: 1.5
             trailLength: 6
+            trailColor: bf92f9
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
             splashDamageRadius: 15
@@ -66,12 +68,13 @@ weapons: [
             lightningLength: 20
             lightningLengthRand: 30
             lightningDamage: 5
+            lightningColor: bf92f9
 
             homingPower: 0.17
             homingDelay: 19
-            homingRange: 80
+            homingRange: 60
 
-            explodeRange: 80
+            explodeRange: 60
             explodeDelay: 0
             flakInterval: 20
             despawnShake: 1
@@ -86,13 +89,13 @@ weapons: [
                 color: bf92f9
                 stroke: 0
                 strokeTo: 0.2
-                radiusTo: 16
-                radius: 8
+                radiusTo: 12
+                radius: 6
             },
             {
                 type: HaloPart
-                radius: 8
-                radiusTo: 16
+                radius: 6
+                radiusTo: 12
                 layer: 110
                 color: bf92f9
                 haloRotateSpeed: 1.5
