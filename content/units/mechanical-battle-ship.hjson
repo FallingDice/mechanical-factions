@@ -31,7 +31,7 @@ weapons: [
         y: 0
         reload: 1000
         ejectEffect: casing4
-        shootSound: cannon
+        shootSound: railgun
 
         bullet: {
             type: BasicBulletType
