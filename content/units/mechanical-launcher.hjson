@@ -19,6 +19,7 @@ itemCapacity: 60
 weapons: [
     {
         name: mechanical-launcher-cannon
+        rotate: true
         mirror: false
         x: 0
         y: -10

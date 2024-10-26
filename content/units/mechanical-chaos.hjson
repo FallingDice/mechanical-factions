@@ -7,6 +7,8 @@ outlines: false
 
 crashDamageMultiplier: 1.5
 
+deathExplosionEffect: steam
+createScorch: false
 
 weapons: [
     {
