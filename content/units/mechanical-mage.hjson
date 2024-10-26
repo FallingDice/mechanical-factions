@@ -1,0 +1,96 @@
+type: mech
+speed: 0.6
+health: 1600
+armor: 3
+hitSize: 13
+
+rotateSpeed: 0.8
+outlines: false
+
+crashDamageMultiplier: 1.5
+
+mechFrontSway: 0.55
+
+itemCapacity: 120
+
+weapons: [
+    {
+        rotate: true
+        mirror: false
+        x: 0
+        y: 15
+        reload: 160
+        cooldownTime: 60
+        recoil: 0
+        ejectEffect: none
+        shootSound: malignShoot
+        loopSound: spellLoop
+        loopSoundVolume: 0.8
+
+        bullet: {
+            type: FlakBulletType
+            sprite: missile-large
+            knockback: 2
+            damage: 35
+            speed: 6.5
+            width: 6
+            height: 11
+            lifetime: 45
+            hitSize: 7
+            shootEffect: shootSmokeSquareBig
+            smokeEffect: shootSmokeDisperse
+            frontColor: ffffff
+            trailWidth: 1.5
+            trailLength: 6
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            splashDamageRadius: 15
+            splashDamage: 10
+
+            trailEffect: colorSpark
+            trailRotation: true
+            trailInterval: 3
+            lightning: 1
+            lightningCone: 15
+            lightningLength: 20
+            lightningLengthRand: 30
+            lightningDamage: 5
+
+            homingPower: 0.17
+            homingDelay: 19
+            homingRange: 80
+
+            explodeRange: 80
+            explodeDelay: 0
+            flakInterval: 20
+            despawnShake: 1
+        }
+
+        parts: [
+            {
+                type: shapePart
+                hollow: true
+                circle: true
+                layer: 110
+                color: bf92f9
+                stroke: 0
+                strokeTo: 0.2
+                radiusTo: 16
+                radius: 8
+            },
+            {
+                type: HaloPart
+                radius: 8
+                radiusTo: 16
+                layer: 110
+                color: bf92f9
+                haloRotateSpeed: 1.5
+                haloRadius: 0
+                stroke: 0
+                strokeTo: 0.2
+                shapes: 2
+                hollow: true
+            }
+        ]
+    }
+]
