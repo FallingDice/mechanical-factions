@@ -45,7 +45,6 @@ weapons: [
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            trailEffect: colorSpark
 
             despawnUnit: mechanical-chaos
         }

@@ -44,11 +44,10 @@ ammoTypes: {
     makeFire: true
     knockback: 0.8
 
-    shootEffect: shootSmokeSquareBig
+    shootEffect: shootSmokeSquare
     smokeEffect: shootSmokeDisperse
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
-    trailEffect: colorSpark
   }
 }
 

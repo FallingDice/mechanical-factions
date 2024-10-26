@@ -62,7 +62,6 @@ weapons: [
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            trailEffect: colorSpark
 
             shootEffect: {
                 type: WaveEffect

@@ -39,11 +39,10 @@ weapons: [
             trailWidth: 3
             trailLength: 4.6
 
-            shootEffect: shootSmokeSquareBig
+            shootEffect: shootSmokeSquare
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            trailEffect: colorSpark
         }
     }
 ]

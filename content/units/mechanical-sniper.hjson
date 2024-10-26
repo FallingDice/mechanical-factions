@@ -11,7 +11,7 @@ rotateSpeed: 0.6
 outlines: false
 
 engineSize: 5
-engineOffset: 30
+engineOffset: 33
 crashDamageMultiplier: 1.5
 
 omniMovement: false
@@ -45,7 +45,6 @@ weapons: [
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            trailEffect: colorSpark
         }
     }
 ]
