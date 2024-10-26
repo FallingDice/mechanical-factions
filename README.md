@@ -5,3 +5,6 @@ This mod is an additional mod for the Flesh Mod.
 
 0.38v
 - add mechanical-mage
+
+0.39v
+- sprite update
