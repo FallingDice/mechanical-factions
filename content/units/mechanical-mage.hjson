@@ -21,7 +21,7 @@ weapons: [
         mirror: false
         x: 0
         y: 15
-        reload: 320
+        reload: 360
         cooldownTime: 120
         recoil: 0
         ejectEffect: none
@@ -39,10 +39,10 @@ weapons: [
         shootStatus: slow
 
         bullet: {
-            type: FlakBulletType
+            type: BasicBulletType
             sprite: missile-large
             knockback: 3
-            damage: 35
+            damage: 30
             speed: 6.5
             width: 6
             height: 11
@@ -63,7 +63,7 @@ weapons: [
             trailEffect: colorSpark
             trailRotation: true
             trailInterval: 3
-            lightning: 1
+            lightning: 3
             lightningCone: 15
             lightningLength: 20
             lightningLengthRand: 30
@@ -73,12 +73,7 @@ weapons: [
             homingPower: 0.17
             homingDelay: 19
             homingRange: 60
-
-            explodeRange: 60
-            explodeDelay: 0
-            flakInterval: 20
             despawnShake: 1
-            collidesGround: true
         }
 
         parts: [
