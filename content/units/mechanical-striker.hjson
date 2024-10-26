@@ -23,6 +23,7 @@ weapons: [
         reload: 15
         mirror: true
         shootSound: sap
+        recoil: -2
 
         bullet: {
             type: SapBulletType

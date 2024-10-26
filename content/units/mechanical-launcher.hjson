@@ -14,7 +14,7 @@ mechFrontSway: 0.55
 
 itemCapacity: 60
 
-omniMovement: false
+rotateMoveFirst: true
 
 #스프라이트가 포신이 하늘 방향을 바라보도록 할 예정임
 weapons: [
