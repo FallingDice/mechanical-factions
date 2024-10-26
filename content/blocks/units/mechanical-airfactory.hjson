@@ -30,6 +30,6 @@ consumes: {
 }
 
 research: {
-    parent: core-shard
+    parent: mechanical-groundfactory
 }
 researchCostMultiplier: 0.4
