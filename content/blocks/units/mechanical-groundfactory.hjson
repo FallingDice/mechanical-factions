@@ -5,7 +5,7 @@ size: 3
 health: 500
 
 requirements: [
-    copper/200, lead/150, silicon/60
+    copper/200, lead/150, silicon/60, scrap/300
 ]
 
 plans: [

@@ -45,4 +45,4 @@ weapons: [
 ]
 
 research: mec-additive-reconstructor
-researchCostMultiplier: 0.5
+researchCostMultiplier: 1.5

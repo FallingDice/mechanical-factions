@@ -5,7 +5,7 @@ size: 3
 constructTime: 3600
 
 requirements: [
-      copper/600, lead/400, graphite/80, silicon/120
+      copper/600, lead/400, graphite/80, silicon/120, scrap/800
     ]
 
 upgrades: [
