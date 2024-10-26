@@ -4,7 +4,7 @@ health: 460
 armor: 12
 hitSize: 13
 
-rotateSpeed: 0.8
+rotateSpeed: 1.6
 outlines: false
 
 crashDamageMultiplier: 1.5
