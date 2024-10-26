@@ -16,6 +16,28 @@ requirements: [
 
 outputItem: scrap/3
 
+drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawRegion
+        suffix: -bottom
+      },
+      {
+        type: DrawLiquidTile
+      },
+      {
+        type: DrawRegion
+        spinSprite: true
+        suffix: -spinner
+        rotateSpeed: 0.6
+      },
+      {
+        type: DrawDefault
+      }
+    ]
+}
+
 craftTime: 180
 craftEffect: blastExplosion
 craftSound: drillImpact
