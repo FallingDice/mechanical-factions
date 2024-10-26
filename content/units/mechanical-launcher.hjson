@@ -41,6 +41,12 @@ weapons: [
             splashDamageRadius: 35
             splashDamage: 40
 
+            shootEffect: shootSmokeSquareBig
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            trailEffect: colorSpark
+
             despawnUnit: mechanical-chaos
         }
     }

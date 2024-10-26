@@ -7,6 +7,8 @@ range: 120
 ammoEjectBack: 2
 ammoPerShot: 3
 
+outlines: false
+
 requirements: [
   scrap/480
 ]

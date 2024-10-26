@@ -43,26 +43,28 @@ weapons: [
             sprite: missile-large
             knockback: 3
             damage: 30
+            splashDamageRadius: 15
+            splashDamage: 10
             speed: 6.5
             width: 6
             height: 11
             lifetime: 30
             hitSize: 7
-            shootEffect: shootSmokeSquareBig
-            smokeEffect: shootSmokeDisperse
             frontColor: ffffff
             backColor: bf92f9
             trailWidth: 1.5
             trailLength: 6
             trailColor: bf92f9
+
+            shootEffect: shootSmokeSquareBig
+            smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            splashDamageRadius: 15
-            splashDamage: 10
-
             trailEffect: colorSpark
+            
             trailRotation: true
             trailInterval: 3
+
             lightning: 3
             lightningCone: 15
             lightningLength: 10

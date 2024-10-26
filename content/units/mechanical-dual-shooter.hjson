@@ -22,14 +22,22 @@ buildSpeed: 1
 weapons: [
     {
         name: mechanical-dual-cannon
-        mirror: true
+        mirror: false
         top: false
-        x: 4.5
+        x: 0
         y: 0
         reload: 20
         ejectEffect: casing2
         shootSound: mediumCannon
         layerOffset: -0.01
+        shoot: {
+            type: shootBarrel
+            shots: 2
+            barrels: [
+                5, 0, 0,
+                -5, 0, 0
+            ]
+            }
 
         bullet: {
             type: BasicBulletType
@@ -40,6 +48,12 @@ weapons: [
             lifetime: 40
             trailWidth: 3
             trailLength: 4.6
+
+            shootEffect: shootSmokeSquareBig
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            trailEffect: colorSpark
         }
     }
 ]

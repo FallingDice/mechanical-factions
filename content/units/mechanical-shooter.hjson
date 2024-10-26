@@ -38,6 +38,12 @@ weapons: [
             lifetime: 40
             trailWidth: 3
             trailLength: 4.6
+
+            shootEffect: shootSmokeSquareBig
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            trailEffect: colorSpark
         }
     }
 ]

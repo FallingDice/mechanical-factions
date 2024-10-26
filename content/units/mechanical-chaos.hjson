@@ -35,6 +35,12 @@ weapons: [
             trailLength: 3
             despawnUnit: mechanical-chaos
             killShooter: true
+            
+            shootEffect: shootSmokeSquareBig
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            trailEffect: colorSpark
         }
     }
 ]

@@ -59,6 +59,11 @@ weapons: [
             despawnUnitCount: 5
             despawnUnitRadius: 20
 
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            trailEffect: colorSpark
+
             shootEffect: {
                 type: WaveEffect
                 lifetime: 50

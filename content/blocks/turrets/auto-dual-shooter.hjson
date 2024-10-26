@@ -8,6 +8,8 @@ minRange: 60
 ammoEjectBack: 2
 ammoPerShot: 3
 
+outlines: false
+
 requirements: [
   scrap/640
 ]
@@ -39,6 +41,12 @@ ammoTypes: {
     lifetime: 60
     trailWidth: 3
     trailLength: 4.6
+
+    shootEffect: shootSmokeSquareBig
+    smokeEffect: shootSmokeDisperse
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    trailEffect: colorSpark
   }
 }
 
