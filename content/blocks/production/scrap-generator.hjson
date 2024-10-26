@@ -24,10 +24,6 @@ drawer: {
         suffix: -bottom
       },
       {
-        type: DrawLiquidTile
-        drawLiquid: slug
-      },
-      {
         type: DrawRegion
         spinSprite: true
         suffix: -spinner
