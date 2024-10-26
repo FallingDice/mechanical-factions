@@ -78,6 +78,7 @@ weapons: [
             explodeDelay: 0
             flakInterval: 20
             despawnShake: 1
+            collidesGround: true
         }
 
         parts: [
