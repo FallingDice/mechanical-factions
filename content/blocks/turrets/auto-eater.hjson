@@ -3,8 +3,7 @@ category: turret
 health: 900
 armor: 4
 size: 2
-range: 240
-minRange: 60
+range: 120
 ammoEjectBack: 2
 ammoPerShot: 3
 
@@ -15,8 +14,8 @@ requirements: [
 shootSound: cannon
 forceMultiTarget: true
 
-reload: 120
-inaccuracy: 5
+reload: 100
+inaccuracy: 10
 recoil: 1
 
 coolant: {
@@ -26,8 +25,8 @@ coolant: {
 }
 
 shoot: {
-  shots: 3
-  shotDelay: 5
+  shots: 4
+  shotDelay: 10
 }
 ammoTypes: {
   scrap: {
@@ -35,7 +34,7 @@ ammoTypes: {
           damage: 20
           width: 0.55
           sapStrength: 0.85
-          length: 80
+          length: 120
           lifetime: 40
           recoil: -1
           knockback: -1

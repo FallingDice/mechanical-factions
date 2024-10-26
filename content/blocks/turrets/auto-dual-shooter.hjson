@@ -1,0 +1,66 @@
+type: itemTurret
+category: turret
+health: 900
+armor: 4
+size: 3
+range: 300
+minRange: 60
+ammoEjectBack: 2
+ammoPerShot: 3
+
+requirements: [
+  scrap/320
+]
+
+shootSound: cannon
+forceMultiTarget: true
+
+reload: 80
+inaccuracy: 5
+recoil: 1
+
+coolant: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.3
+}
+
+shoot: {
+  shots: 6
+  shotDelay: 5
+}
+ammoTypes: {
+  scrap: {
+    type: BasicBulletType
+    damage: 35
+    speed: 4.25
+    width: 6
+    height: 8
+    lifetime: 40
+    trailWidth: 3
+    trailLength: 4.6
+  }
+}
+
+drawer: {
+  type: DrawTurret
+   parts: [
+     {
+            y: -5
+            type: RegionPart
+            progress: warmup
+            suffix: -dual-cannon
+            mirror: true
+            under: true
+            moveY: 5
+            layerOffset: -0.01
+            moves: [
+              {
+                type: partMove
+                progress: recoil
+                y: -1
+              }
+            ]
+          }
+   ]
+}
