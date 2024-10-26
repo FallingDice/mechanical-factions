@@ -1,6 +1,6 @@
 type: itemTurret
 category: turret
-health: 900
+health: 600
 armor: 4
 size: 2
 range: 240

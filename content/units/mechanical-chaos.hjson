@@ -1,7 +1,7 @@
 type: mech
 speed: 0.5
 health: 60
-hitSize: 6
+hitSize: 8
 
 outlines: false
 
