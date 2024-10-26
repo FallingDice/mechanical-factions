@@ -5,7 +5,7 @@ flying: false
 health: 160
 armor: 1
 hitSize: 8
-range: 160
+range: 40
 
 outlines: false
 
@@ -37,7 +37,7 @@ weapons: [
             collidesTeam: true
             splashDamage: 3
             splashDamageRadius: 10
-            rangeOverride: 80
+            rangeOverride: 30
 
             collidesAir: false
         }
