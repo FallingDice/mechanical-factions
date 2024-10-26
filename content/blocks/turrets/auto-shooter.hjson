@@ -66,3 +66,8 @@ drawer: {
           }
    ]
 }
+
+research: {
+    parent: core-shard
+}
+researchCostMultiplier: 0.4
