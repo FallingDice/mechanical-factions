@@ -25,6 +25,7 @@ drawer: {
       },
       {
         type: DrawLiquidTile
+        drawLiquid: slug
       },
       {
         type: DrawRegion
