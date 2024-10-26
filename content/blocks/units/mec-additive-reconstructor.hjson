@@ -1,0 +1,28 @@
+type: Reconstructor
+category: units
+health: 1550
+size: 3
+constructTime: 3600
+
+requirements: [
+      copper/600, lead/400, graphaite/80, silicon/120
+    ]
+
+upgrades: [
+   [mechanical-shooter, mechanical-dual-shooter]
+ ]
+
+    consumes: {
+        items: {
+            items: [
+              scrap/400
+            ]
+        },
+          liquid: {
+        liquid: water
+        amount: 0.1
+         }
+    }
+
+research: mechanical-groundfactory
+researchCostMultiplier: 0.3
