@@ -65,9 +65,9 @@ weapons: [
             trailInterval: 3
             lightning: 3
             lightningCone: 15
-            lightningLength: 20
-            lightningLengthRand: 30
-            lightningDamage: 5
+            lightningLength: 10
+            lightningLengthRand: 15
+            lightningDamage: 10
             lightningColor: bf92f9
 
             homingPower: 0.17
