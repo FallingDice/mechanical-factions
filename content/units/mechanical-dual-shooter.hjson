@@ -28,7 +28,7 @@ weapons: [
         y: 0
         reload: 20
         ejectEffect: casing2
-        shootSound: cannon
+        shootSound: mediumCannon
         layerOffset: -0.01
 
         bullet: {
