@@ -91,6 +91,17 @@ weapons: [
                 radius: 6
             },
             {
+                type: shapePart
+                hollow: true
+                circle: true
+                layer: 110
+                color: bf92f9
+                stroke: 0
+                strokeTo: 0.2
+                radiusTo: 14
+                radius: 7
+            },
+            {
                 type: HaloPart
                 radius: 6
                 radiusTo: 12
