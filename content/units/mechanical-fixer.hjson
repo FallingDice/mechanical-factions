@@ -50,3 +50,6 @@ abilities: [
       reload: 300
     }
 ]
+
+research: mechanical-groundfactory
+researchCostMultiplier: 0.3

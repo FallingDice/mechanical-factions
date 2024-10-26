@@ -4,7 +4,7 @@ health: 900
 size: 3
   
 hasItems: true
-itemCapacity: 60
+itemCapacity: 30
 
 requirements: [
   copper/200
@@ -14,9 +14,9 @@ requirements: [
   silicon/30
 ]
 
-outputItem: scrap/6
+outputItem: scrap/3
 
-craftTime: 90
+craftTime: 180
 craftEffect: blastExplosion
 craftSound: drillImpact
 

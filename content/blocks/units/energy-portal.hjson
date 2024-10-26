@@ -23,8 +23,8 @@ ammoTypes: {
   splashDamage: 30
   width: 16
   height: 16
-  trailWidth: 12
-  trailLength: 4
+  trailWidth: 8
+  trailLength: 8
   speed: 6
   lifetime: 600
   knockback: 5

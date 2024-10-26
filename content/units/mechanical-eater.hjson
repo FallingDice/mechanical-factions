@@ -2,9 +2,9 @@ controller: SuicideAI
 
 type: flying
 flying: true
-speed: 2.3
-health: 400
-armor: 3
+speed: 2
+health: 300
+armor: 2
 hitSize: 8
 
 circleTarget: true
@@ -43,3 +43,6 @@ weapons: [
         }
     }
 ]
+
+research: mechanical-airfactory
+researchCostMultiplier: 0.3

@@ -49,7 +49,7 @@ drawer: {
             y: -5
             type: RegionPart
             progress: warmup
-            suffix: -dual-cannon
+            suffix: -cannon
             mirror: true
             under: true
             moveY: 5
