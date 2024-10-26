@@ -9,7 +9,7 @@ ammoEjectBack: 2
 ammoPerShot: 3
 
 requirements: [
-  scrap/320
+  scrap/640
 ]
 
 shootSound: cannon
