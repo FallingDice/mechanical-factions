@@ -43,4 +43,4 @@ weapons: [
 ]
 
 research: mechanical-airfactory
-researchCostMultiplier: 0.3
+researchCostMultiplier: 2

@@ -22,7 +22,7 @@ plans: [
 ]
 
 consumes: {
-  power: 4
+  power: 3
   liquid: {
         liquid: water
         amount: 0.1
