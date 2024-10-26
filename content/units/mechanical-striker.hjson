@@ -27,14 +27,13 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 5
+            splashDamage: 5
+            splashDamageRadius: 20
             width: 0.55
             sapStrength: 0.2
             length: 10
             lifetime: 20
             knockback: -0.5
-            splashDamage: 3
-            splashDamageRadius: 10
             rangeOverride: 30
 
             collidesAir: false
