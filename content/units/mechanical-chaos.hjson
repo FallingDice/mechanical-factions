@@ -20,9 +20,10 @@ weapons: [
         ejectEffect: casing1
         shootSound: cannon
         shootOnDeath: true
-        shoot: {
-          firstShotDelay: 80
-        }
+        
+        shootWarmupSpeed: 0.1
+        minWarmup: 0.9
+        warmupMaintainTime: 90
 
         bullet: {
             type: BasicBulletType
