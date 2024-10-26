@@ -16,7 +16,7 @@ forceMultiTarget: true
 
 reload: 100
 inaccuracy: 10
-recoil: 1
+recoil: -2
 
 coolant: {
   type: ConsumeCoolant
@@ -36,7 +36,6 @@ ammoTypes: {
           sapStrength: 0.85
           length: 120
           lifetime: 40
-          recoil: -1
-          knockback: -1
+          knockback: -2
   }
 }

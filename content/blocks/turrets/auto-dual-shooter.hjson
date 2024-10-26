@@ -33,34 +33,11 @@ ammoTypes: {
   scrap: {
     type: BasicBulletType
     damage: 35
-    speed: 4.25
+    speed: 6
     width: 6
     height: 8
-    lifetime: 40
+    lifetime: 60
     trailWidth: 3
     trailLength: 4.6
   }
-}
-
-drawer: {
-  type: DrawTurret
-   parts: [
-     {
-            y: -5
-            type: RegionPart
-            progress: warmup
-            suffix: -nozzle
-            mirror: true
-            under: true
-            moveY: 5
-            layerOffset: -0.01
-            moves: [
-              {
-                type: partMove
-                progress: recoil
-                y: -1
-              }
-            ]
-          }
-   ]
 }
