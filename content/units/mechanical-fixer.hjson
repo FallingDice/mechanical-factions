@@ -16,7 +16,7 @@ itemCapacity: 5
 
 weapons: [
     {
-        name: small-basic-weapon
+        name: small-mechanical-weapon
         rotate: true
         x: 4
         y: 0
