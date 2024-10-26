@@ -12,7 +12,7 @@ requirements: [
   scrap/320
 ]
 
-shootSound: cannon
+shootSound: mediumCannon
 forceMultiTarget: true
 
 reload: 120
