@@ -11,7 +11,7 @@ requirements: [
   scrap/480
 ]
 
-shootSound: cannon
+shootSound: sap
 forceMultiTarget: true
 
 reload: 100
