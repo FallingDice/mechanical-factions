@@ -39,5 +39,5 @@ craftTime: 180
 craftEffect: blastExplosion
 craftSound: drillImpact
 
-research: core-sharded
+research: core-shard
 researchCostMultiplier: 0.3

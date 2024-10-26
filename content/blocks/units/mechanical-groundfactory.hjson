@@ -35,6 +35,6 @@ consumes: {
 }
 
 research: {
-    parent: core-sharded
+    parent: core-shard
 }
 researchCostMultiplier: 0.4

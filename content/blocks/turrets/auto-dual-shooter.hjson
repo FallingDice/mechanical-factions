@@ -41,3 +41,8 @@ ammoTypes: {
     trailLength: 4.6
   }
 }
+
+research: {
+    parent: auto-shooter
+}
+researchCostMultiplier: 0.4

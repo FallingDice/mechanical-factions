@@ -39,3 +39,8 @@ ammoTypes: {
           knockback: -2
   }
 }
+
+research: {
+    parent: auto-shooter
+}
+researchCostMultiplier: 0.4
