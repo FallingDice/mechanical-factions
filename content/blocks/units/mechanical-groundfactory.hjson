@@ -16,7 +16,7 @@ plans: [
   },
   {
     unit: mechanical-fixer
-    requirements: [scrap/5]
+    requirements: [scrap/10]
     time: 300
   },
   {
