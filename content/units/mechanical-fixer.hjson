@@ -54,4 +54,4 @@ abilities: [
 ]
 
 research: mechanical-groundfactory
-researchCostMultiplier: 0.3
+researchCostMultiplier: 3
