@@ -1,0 +1,43 @@
+type: itemTurret
+category: turret
+health: 900
+armor: 4
+size: 2
+range: 240
+minRange: 60
+ammoEjectBack: 2
+ammoPerShot: 3
+
+requirements: [
+  scrap/320
+]
+
+shootSound: cannon
+forceMultiTarget: true
+
+reload: 120
+inaccuracy: 5
+recoil: 1
+
+coolant: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.3
+}
+
+shoot: {
+  shots: 3
+  shotDelay: 5
+}
+ammoTypes: {
+  scrap: {
+    type: SapBulletType
+          damage: 20
+          width: 0.55
+          sapStrength: 0.85
+          length: 80
+          lifetime: 40
+          recoil: -1
+          knockback: -1
+  }
+}
