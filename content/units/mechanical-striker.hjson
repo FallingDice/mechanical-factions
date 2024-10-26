@@ -5,7 +5,7 @@ flying: false
 health: 240
 armor: 2
 hitSize: 8
-range: 30
+range: 40
 
 outlines: false
 
