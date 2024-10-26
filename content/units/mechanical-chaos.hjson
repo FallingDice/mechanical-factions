@@ -20,13 +20,13 @@ weapons: [
         ejectEffect: casing1
         shootSound: cannon
         shootOnDeath: true
-         shoot: {
-          firstShotDelay: 60
+        shoot: {
+          firstShotDelay: 80
         }
 
         bullet: {
             type: BasicBulletType
-            damage: 15
+            damage: 10
             speed: 5
             width: 5
             height: 5
