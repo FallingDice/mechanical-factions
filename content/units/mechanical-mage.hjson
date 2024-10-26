@@ -1,7 +1,7 @@
 type: mech
 speed: 0.6
-health: 1600
-armor: 3
+health: 460
+armor: 12
 hitSize: 13
 
 rotateSpeed: 0.8
@@ -13,19 +13,30 @@ mechFrontSway: 0.55
 
 itemCapacity: 120
 
+immunities: [wet, burning, melting]
+
 weapons: [
     {
         rotate: true
         mirror: false
         x: 0
         y: 15
-        reload: 160
-        cooldownTime: 60
+        reload: 320
+        cooldownTime: 120
         recoil: 0
         ejectEffect: none
         shootSound: malignShoot
         loopSound: spellLoop
         loopSoundVolume: 0.8
+
+        shootWarmupSpeed: 0.04
+        minWarmup: 0.9
+        warmupMaintainTime: 90
+        shoot: {
+            shots: 6
+            shotDelay: 20
+            }
+        shootStatus: slow
 
         bullet: {
             type: FlakBulletType
