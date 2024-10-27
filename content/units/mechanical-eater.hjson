@@ -22,6 +22,19 @@ itemCapacity: 20
 mineSpeed: 1
 mineTier: 1
 
+lowAltitude: true
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: 442400
+    mirror: false
+    outline: false
+    layer: 60.1
+  }
+]
+
 weapons: [
     {
         rotate: false

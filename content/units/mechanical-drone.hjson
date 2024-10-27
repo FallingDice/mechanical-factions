@@ -16,6 +16,19 @@ crashDamageMultiplier: 1.5
 
 itemCapacity: 10
 
+lowAltitude: true
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: 442400
+    mirror: false
+    outline: false
+    layer: 60.1
+  }
+]
+
 weapons: [
     {
         mirror: true
