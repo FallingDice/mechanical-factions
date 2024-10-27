@@ -1,0 +1,65 @@
+controller: SuicideAI
+
+type: mech
+flying: false
+health: 240
+armor: 2
+hitSize: 8
+range: 40
+
+outlines: false
+
+crashDamageMultiplier: 1.5
+
+itemCapacity: 5
+
+weapons: [
+    {
+        name: mechanical-tank-head-mount
+        rotate: true
+        rotateSpeed: 0.8
+        x: 0
+        y: 0
+        reload: 150
+        mirror: false
+        shootSound: artillery
+        recoil: 1
+        shootStatus: slow
+        targetAir: false
+
+        bullet: {
+            type: ArtilleryBulletType
+            splashDamage: 30
+            splashDamageRadius: 20
+            speed: 3
+            lifetime: 60
+            knockback: 1
+
+            collidesAir: false
+        }
+    },
+    {
+        name: mechanical-tank-head-barrel
+        rotate: true
+        rotateSpeed: 3
+        x: 0
+        y: 0
+        reload: 25
+        mirror: false
+        shootSound: pew
+        targetAir: true
+
+        bullet: {
+            type: BasicBulletType
+            damage: 5
+            speed: 6
+            lifetime: 35
+            knockback: 0.2
+
+            collidesAir: true
+        }
+    }
+]
+
+research: mechanical-groundfactory
+researchCostMultiplier: 3

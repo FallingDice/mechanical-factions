@@ -24,6 +24,7 @@ weapons: [
         mirror: true
         shootSound: sap
         recoil: -3
+        shootStatus: fast
 
         bullet: {
             type: SapBulletType
@@ -37,6 +38,8 @@ weapons: [
             healPercent: 1
             collidesTeam: true
             rangeOverride: 30
+
+            status: slow
 
             collidesAir: false
         }

@@ -24,6 +24,7 @@ weapons: [
         mirror: true
         shootSound: sap
         recoil: -3
+        shootStatus: fast
 
         bullet: {
             type: SapBulletType
@@ -35,6 +36,8 @@ weapons: [
             lifetime: 20
             knockback: -0.5
             rangeOverride: 30
+
+            status: slow
 
             collidesAir: false
         }

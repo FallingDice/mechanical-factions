@@ -48,7 +48,12 @@ deathExplosionEffect: [
 ]
 
 targetFlags: [core]
-mmunities: []
+mmunities: [
+    wet, tarred, melting, freezing,
+    blasted, slow, burning, muddy,
+    sapped, shocked, electrified, spore-slowed,
+    corroded, disarmed
+    ]
 
 omniMovement: false
 rotateMoveFirst: true
@@ -88,6 +93,8 @@ weapons: [
             lightningLength: 6
             lightningLengthRand: 3
             lightningDamage: 30
+
+            status: disarmed
 
             #test options
             despawnUnit: mechanical-chaos
@@ -182,6 +189,7 @@ weapons: [
     {
         name: mechanical-missile-launcher
         reload: 300
+        cooldownTime: 60
         shootSound: missileLarge
         rotate: true
         mirror: true
@@ -214,6 +222,47 @@ weapons: [
             ]
           }
         ]
+    },
+    {
+        shootCone: 360
+        mirror: false
+        reload: 1
+        shootOnDeath: true
+        shoot: {
+            type: shootSpread
+            shots: 6
+            shotDelay: 30
+            spread: 60
+        }
+        bullet: {
+            type: ExplosionBulletType
+            splashDamage: 5000
+            splashDamageRadius: 80
+            despawnUnit: mechanical-striker
+            despawnUnitCount: 10
+            despawnUnitRadius: 60
+
+            shootEffect: {
+                type: MultiEffect
+                effects: [
+                    massiveExplosion,
+                    {
+                        type: WrapEffect
+                        effect: dynamicSpikes
+                        color: 8ca9e8
+                        rotation: 24
+                    },
+                    {
+                        type: WaveEffect
+                        colorFrom: 8ca9e8
+                        colorTo: 8ca9e8
+                        sizeTo: 180
+                        lifetime: 40
+                        strokeFrom: 4
+                    }
+                ]
+            }
+        }
     }
 ]
 

@@ -23,6 +23,11 @@ plans: [
     unit: mechanical-chaos
     requirements: [scrap/5]
     time: 300
+  },
+  {
+    unit: mechanical-tank-head
+    requirements: [scrap/50]
+    time: 900
   }
 ]
 

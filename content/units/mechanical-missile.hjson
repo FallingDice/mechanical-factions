@@ -33,6 +33,8 @@ weapons: [
         splashDamageRadius: 40
         buildingDamageMultiplier: 0.5
         hitEffect: titanExplosion
+
+        status: burning
     }
 } 
 ]

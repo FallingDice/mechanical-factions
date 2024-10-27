@@ -54,7 +54,12 @@ deathExplosionEffect: [
 ]
 
 targetFlags: [null]
-mmunities: []
+mmunities: [
+    wet, tarred, melting, freezing,
+    blasted, slow, burning, muddy,
+    sapped, shocked, electrified, spore-slowed,
+    corroded, disarmed
+    ]
 
 abilities: [
     {
