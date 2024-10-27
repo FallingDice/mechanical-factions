@@ -3,8 +3,10 @@ flying: false
 health: 300
 armor: 6
 hitSize: 12
+speed: 1
 
 outlines: false
+mechFrontSway: 0.35
 
 crashDamageMultiplier: 1.5
 
