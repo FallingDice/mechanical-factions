@@ -21,6 +21,8 @@ rotateMoveFirst: true
 
 loopSoundVolume: 0.4
 loopSound: machine
+deathSound: Explosionbig
+deathExplosionEffect: titanExplosion
 
 mmunities: []
 

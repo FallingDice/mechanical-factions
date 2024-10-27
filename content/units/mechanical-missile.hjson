@@ -1,0 +1,46 @@
+type: missile
+physics: false
+template: MissileUnitType
+flying: true
+speed: 4
+deathExplosionEffect: massiveExplosion
+
+controller: MissileAI
+missileAccelTime: 30
+useUnitCap: false
+engineSize: 0.5
+engineOffset: 2.5
+lifetime: 200
+rotateSpeed: 0.3
+hitSize: 6
+trailLength: 15
+homingDelay: 0.1
+health: 600
+trailColor: ffffff
+aimDst: 10
+hidden: true
+range: 40
+weapons: [
+{
+    reload: 1
+    shake: 3
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    bullet: {
+        type: ExplosionBulletType
+        splashDamage: 150
+        splashDamageRadius: 40
+        buildingDamageMultiplier: 0.5
+        hitEffect: titanExplosion
+    }
+} 
+]
+
+abilities: [
+    {
+        type: LiquidExplodeAbility
+        liquid: oil
+        amount: 180
+    }
+]

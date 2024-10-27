@@ -25,7 +25,7 @@ mineTier: 3
 buildSpeed: 6
 payloadCapacity: 2000
 
-deathSound: laegeExplosion
+deathSound: largeExplosion
 deathExplosionEffect: [
     {
     type: ParticleEffect

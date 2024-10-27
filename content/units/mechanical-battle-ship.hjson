@@ -19,7 +19,7 @@ crashDamageMultiplier: 1.5
 loopSoundVolume: 0.6
 loopSound: machine
 
-deathSound: laegeExplosion
+deathSound: largeExplosion
 deathExplosionEffect: [
     {
     type: ParticleEffect
@@ -178,6 +178,42 @@ weapons: [
             instantDisappear: true
             spawnUnit: mechanical-mage
         }
+    },
+    {
+        name: mechanical-missile-launcher
+        reload: 300
+        shootSound: missileLarge
+        rotate: true
+        mirror: true
+        x: 30
+        heatColor: ff0000
+
+        bullet: {
+            rangeOverride: 600
+            damage: 0
+            instantDisappear: true
+            spawnUnit: mechanical-missile
+        }
+        parts: [
+            {
+            type: RegionPart
+            progress: warmup
+            suffix: -blade
+            mirror: true
+            moveX: 3
+            moveY: -4
+            moveRot: 10
+            layerOffset: -0.01
+            heatLayerOffset: 0.05
+            moves: [
+              {
+                type: partMove
+                progress: recoil
+                y: -1
+              }
+            ]
+          }
+        ]
     }
 ]
 
