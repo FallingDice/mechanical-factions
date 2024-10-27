@@ -2,13 +2,13 @@ type: flying
 flying: true
 speed: 0.1
 health: 50000
-armor: 5
+armor: 8
 hitSize: 56
 
 accel: 0.5
 drag: 0.2
-rotateSpeed: 0.1
 outlines: false
+rotateSpeed: 0.8
 
 engineSize: 7
 engineOffset: 60
@@ -17,7 +17,7 @@ fallSpeed: 0.0018
 crashDamageMultiplier: 1.5
 
 loopSoundVolume: 0.6
-loopSound: machine
+loopSound: spellLoop
 
 itemCapacity: 800
 mineSpeed: 16
@@ -54,6 +54,7 @@ deathExplosionEffect: [
 ]
 
 targetFlags: [null]
+
 mmunities: [
     wet, tarred, melting, freezing,
     blasted, slow, burning, muddy,
