@@ -16,7 +16,18 @@ itemCapacity: 60
 mineSpeed: 1
 mineTier: 1
 
-#스프라이트가 포신이 하늘 방향을 바라보도록 할 예정임
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: 442400
+    mirror: false
+    outline: false
+    layer: 60.1
+  }
+]
+
 weapons: [
     {
         name: mechanical-launcher-cannon

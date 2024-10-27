@@ -30,8 +30,8 @@ deathExplosionEffect: [
     lifetime: 15
     sizeFrom: 1.2
     sizeTo: 0
-    colorFrom: bf92f970
-    colorTo: bf92f900
+    colorFrom: ffbf0070
+    colorTo: ffbf0000
     },
     {
     type: ParticleEffect
@@ -42,8 +42,8 @@ deathExplosionEffect: [
     lifetime: 15
     sizeFrom: 2
     sizeTo: 0
-    colorFrom: bf92f970
-    colorTo: bf92f900
+    colorFrom: ffbf0070
+    colorTo: ffbf0000
     }
 ]
 
@@ -114,7 +114,7 @@ weapons: [
 
                 lifetime: 120
 
-                colorFrom: bf92f9
+                colorFrom: ffbf00
                 colorTo: ffffff
             }
 
@@ -125,7 +125,7 @@ weapons: [
                 sizeTo: 0
                 strokeFrom:4
                 strokeTo:2
-                colorFrom: bf92f9
+                colorFrom: ffbf00
                 colorTo: ffffff00
             }
         }
@@ -250,13 +250,13 @@ weapons: [
                     {
                         type: WrapEffect
                         effect: dynamicSpikes
-                        color: bf92f9
+                        color: ffbf00
                         rotation: 24
                     },
                     {
                         type: WaveEffect
-                        colorFrom: bf92f9
-                        colorTo: bf92f9
+                        colorFrom: ffbf00
+                        colorTo: ffbf00
                         sizeTo: 180
                         lifetime: 40
                         strokeFrom: 4
