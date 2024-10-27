@@ -16,7 +16,33 @@ trailLength: 32
 fallSpeed: 0.0018
 crashDamageMultiplier: 1.5
 
-deathSound: 
+deathSound: laegeExplosion
+deathExplosionEffect: [
+    {
+    type: ParticleEffect
+    baseLength: 12
+    length: -6
+    cone: 360
+    particles: 6
+    lifetime: 15
+    sizeFrom: 1.2
+    sizeTo: 0
+    colorFrom: 6d56bf70
+    colorTo: 6d56bf00
+    },
+    {
+    type: ParticleEffect
+    baseLength: 17
+    length: -9
+    cone: 360
+    particles: 3
+    lifetime: 15
+    sizeFrom: 2
+    sizeTo: 0
+    colorFrom: 6d56bf70
+    colorTo: 6d56bf00
+    }
+]
 
 targetFlags: [core]
 mmunities: []
