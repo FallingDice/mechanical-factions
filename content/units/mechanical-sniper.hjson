@@ -20,7 +20,7 @@ omniMovement: false
 rotateMoveFirst: true
 
 loopSoundVolume: 0.4
-loopSound: machine
+loopSound: spellLoop
 deathSound: Explosionbig
 deathExplosionEffect: titanExplosion
 

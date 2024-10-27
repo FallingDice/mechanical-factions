@@ -34,6 +34,12 @@ weapons: [
             speed: 3
             lifetime: 60
             knockback: 1
+            trailWidth: 2
+            trailLength: 3
+            shootEffect: shootSmokeSquare
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
 
             collidesAir: false
         }
@@ -55,6 +61,12 @@ weapons: [
             speed: 6
             lifetime: 35
             knockback: 0.2
+            trailWidth: 2
+            trailLength: 3
+            shootEffect: shootSmokeSquare
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
 
             collidesAir: true
         }

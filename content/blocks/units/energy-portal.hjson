@@ -38,6 +38,9 @@ ammoTypes: {
   }
 }  
 
+loopSoundVolume: 0.4
+loopSound: spellLoop
+
 drawer: {
   type: DrawTurret
   basePrefix: -base

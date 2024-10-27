@@ -14,7 +14,7 @@ mechFrontSway: 0.55
 itemCapacity: 120
 
 loopSound: spellLoop
-loopSoundVolume: 1.3
+loopSoundVolume: 0.2
 
 immunities: [wet, burning, melting, disarmed]
 
