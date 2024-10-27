@@ -12,6 +12,8 @@ crashDamageMultiplier: 1.5
 mechFrontSway: 0.55
 
 itemCapacity: 120
+mineSpeed: 1
+mineTier: 1
 
 loopSound: spellLoop
 loopSoundVolume: 0.2

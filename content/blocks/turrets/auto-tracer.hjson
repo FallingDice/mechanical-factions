@@ -1,0 +1,82 @@
+type: itemTurret
+category: turret
+health: 600
+armor: 4
+size: 2
+range: 240
+minRange: 60
+ammoEjectBack: 2
+ammoPerShot: 3
+
+requirements: [
+  scrap/320
+]
+
+shootSound: cannon
+forceMultiTarget: true
+
+outlines: false
+
+reload: 120
+inaccuracy: 5
+recoil: 1
+
+coolant: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.3
+}
+
+shoot: {
+  shots: 5
+  shotDelay: 10
+}
+ammoTypes: {
+  scrap: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    speed: 4.5
+    damage: 25
+    lifetime: 60
+    trailWidth: 3
+    trailLength: 4.6
+
+    homingPower: 0.2
+    homingDelay: 8
+    homingRange: 40
+
+    shootEffect: shootSmokeSquare
+    smokeEffect: shootSmokeDisperse
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+  }
+}
+
+drawer: {
+  type: DrawTurret
+   parts: [
+     {
+            y: -5
+            type: RegionPart
+            progress: warmup
+            suffix: -barrel
+            mirror: false
+            under: true
+            moveY: 5
+            layerOffset: -0.01
+            moves: [
+              {
+                type: partMove
+                progress: recoil
+                y: -1
+              }
+            ]
+          }
+   ]
+}
+
+research: {
+    parent: auto-shooter
+}
+researchCostMultiplier: 0.4

@@ -10,14 +10,19 @@ requirements: [
 
 plans: [
   {
+    unit: mechanical-drone
+    requirements: [scrap/20]
+    time: 400
+  },
+  {
     unit: mechanical-shooter
     requirements: [scrap/60]
-    time: 600
+    time: 900
   },
   {
     unit: mechanical-eater
     requirements: [scrap/60]
-    time: 600
+    time: 900
   }
 ]
 
