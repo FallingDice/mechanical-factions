@@ -211,7 +211,7 @@ weapons: [
             moveX: 3
             moveY: -4
             moveRot: 10
-            layerOffset: -0.01
+            layerOffset: 0.01
             heatLayerOffset: 0.05
             moves: [
               {
