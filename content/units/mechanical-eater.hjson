@@ -22,7 +22,6 @@ itemCapacity: 20
 mineSpeed: 1
 mineTier: 1
 
-lowAltitude: true
 parts: [
   {
     type: RegionPart
@@ -31,7 +30,7 @@ parts: [
     color: 442400
     mirror: false
     outline: false
-    layer: 60.1
+    layer: 115.1
   }
 ]
 

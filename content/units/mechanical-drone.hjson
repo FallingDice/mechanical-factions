@@ -16,7 +16,6 @@ crashDamageMultiplier: 1.5
 
 itemCapacity: 10
 
-lowAltitude: true
 parts: [
   {
     type: RegionPart
@@ -25,7 +24,7 @@ parts: [
     color: 442400
     mirror: false
     outline: false
-    layer: 60.1
+    layer: 115.1
   }
 ]
 
