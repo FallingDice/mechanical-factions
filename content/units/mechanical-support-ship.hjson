@@ -1,4 +1,4 @@
-type: flying
+type: payload
 flying: true
 speed: 0.1
 health: 50000
@@ -8,6 +8,7 @@ hitSize: 56
 accel: 0.5
 drag: 0.2
 outlines: false
+rotate: true
 rotateSpeed: 0.8
 
 engineSize: 7
@@ -36,8 +37,8 @@ deathExplosionEffect: [
     lifetime: 15
     sizeFrom: 1.2
     sizeTo: 0
-    colorFrom: 6d56bf70
-    colorTo: 6d56bf00
+    colorFrom: bf92f970
+    colorTo: bf92f900
     },
     {
     type: ParticleEffect
@@ -48,8 +49,8 @@ deathExplosionEffect: [
     lifetime: 15
     sizeFrom: 2
     sizeTo: 0
-    colorFrom: 6d56bf70
-    colorTo: 6d56bf00
+    colorFrom: bf92f970
+    colorTo: bf92f900
     }
 ]
 

@@ -30,8 +30,8 @@ deathExplosionEffect: [
     lifetime: 15
     sizeFrom: 1.2
     sizeTo: 0
-    colorFrom: 6d56bf70
-    colorTo: 6d56bf00
+    colorFrom: bf92f970
+    colorTo: bf92f900
     },
     {
     type: ParticleEffect
@@ -42,8 +42,8 @@ deathExplosionEffect: [
     lifetime: 15
     sizeFrom: 2
     sizeTo: 0
-    colorFrom: 6d56bf70
-    colorTo: 6d56bf00
+    colorFrom: bf92f970
+    colorTo: bf92f900
     }
 ]
 
