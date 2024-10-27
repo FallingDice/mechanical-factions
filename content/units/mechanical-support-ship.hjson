@@ -25,9 +25,6 @@ mineTier: 5
 buildSpeed: 12
 payloadCapacity: 2000
 
-omniMovement: true
-rotateMoveFirst: false
-
 deathSound: largeExplosion
 deathExplosionEffect: [
     {
@@ -55,8 +52,6 @@ deathExplosionEffect: [
     colorTo: 6d56bf00
     }
 ]
-
-targetFlags: [null]
 
 mmunities: [
     wet, tarred, melting, freezing,
