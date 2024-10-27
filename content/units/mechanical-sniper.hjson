@@ -12,10 +12,14 @@ outlines: false
 
 engineSize: 5
 engineOffset: 34
+trailLength: 18
+fallSpeed: 0.008
 crashDamageMultiplier: 1.5
 
 omniMovement: false
 rotateMoveFirst: true
+
+mmunities: []
 
 weapons: [
     {
@@ -31,6 +35,8 @@ weapons: [
         ejectEffect: casing4
         shootSound: railgun
 
+        shootStatus: slow
+
         bullet: {
             type: BasicBulletType
             damage: 500
@@ -43,8 +49,15 @@ weapons: [
 
             shootEffect: shootSmokeSquareBig
             smokeEffect: shootSmokeDisperse
-            hitEffect: hitBulletColor
+            hitEffect: flakExplosion
             despawnEffect: hitBulletColor
         }
     }
 ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.5
+}
+    ]

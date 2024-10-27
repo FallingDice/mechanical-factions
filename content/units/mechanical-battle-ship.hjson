@@ -12,9 +12,14 @@ outlines: false
 
 engineSize: 7
 engineOffset: 60
+trailLength: 32
+fallSpeed: 0.0018
 crashDamageMultiplier: 1.5
 
+deathSound: 
+
 targetFlags: [core]
+mmunities: []
 
 omniMovement: false
 rotateMoveFirst: true
@@ -32,6 +37,7 @@ weapons: [
         reload: 1000
         ejectEffect: casing4
         shootSound: railgun
+        chargeSound: lasercharge
 
         bullet: {
             type: BasicBulletType
@@ -41,7 +47,7 @@ weapons: [
             height: 16
             lifetime: 30
             trailWidth: 4
-            trailLength: 8
+            trailLength: 16
             hitEffect: massiveExplosion
             splashDamage: 100
             splashDamageRadius: 100
@@ -60,17 +66,32 @@ weapons: [
             despawnUnitRadius: 20
 
             smokeEffect: shootSmokeDisperse
-            hitEffect: hitBulletColor
+            hitEffect: flakExplosion
             despawnEffect: hitBulletColor
+            chargeEffect: {
+                type: WaveEffect
+                rotWithParent: true
+                followParent: true
+
+                sizeFrom: 60
+                sizeTo: 0
+
+                lifetime: 120
+
+                colorFrom: 8ca9e8
+                colorTo: ffffff
+            }
 
             shootEffect: {
                 type: WaveEffect
                 lifetime: 50
-                sizeFrom: 0
-                sizeTo: 80
-                strokeFrom: 4
-                strokeTo: 0
-                 }
+                sizeFrom: 40
+                sizeTo: 0
+                strokeFrom:4
+                strokeTo:2
+                colorFrom: 8ca9e8
+                colorTo: ffffff00
+            }
         }
     },
     {
@@ -142,5 +163,17 @@ abilities: [
         maxTargets: 20
         healPercent: 10
         sameTypeHealMult: 0.5
+    },
+    {
+        type: RegenAbility
+        amount: 1
+    },
+    {
+    type: ShieldRegenFieldAbility
+    range: 60
+
+    reload: 1000
+    amount: 300
+    max: 12000
     }
 ]

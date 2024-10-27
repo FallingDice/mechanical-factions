@@ -13,6 +13,7 @@ accel: 0.2
 drag: 0.03
 rotateSpeed: 4
 engineOffset: 8.4
+trailLength: 7.5
 outlines: false
 
 crashDamageMultiplier: 1.5
@@ -43,6 +44,13 @@ weapons: [
         }
     }
 ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.03
+}
+    ]
 
 research: mechanical-airfactory
 researchCostMultiplier: 2

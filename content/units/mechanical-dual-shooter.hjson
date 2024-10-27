@@ -12,6 +12,7 @@ outlines: false
 
 engineSize: 4
 engineOffset: 12.6
+trailLength: 12
 crashDamageMultiplier: 1.5
 
 itemCapacity: 80
@@ -56,6 +57,13 @@ weapons: [
         }
     }
 ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.1
+}
+    ]
 
 research: mec-additive-reconstructor
 researchCostMultiplier: 1.5

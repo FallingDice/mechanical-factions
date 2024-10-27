@@ -50,3 +50,10 @@ weapons: [
         }
     }
 ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.05
+}
+    ]
