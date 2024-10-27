@@ -114,7 +114,7 @@ weapons: [
 
                 lifetime: 120
 
-                colorFrom: 8ca9e8
+                colorFrom: bf92f9
                 colorTo: ffffff
             }
 
@@ -125,7 +125,7 @@ weapons: [
                 sizeTo: 0
                 strokeFrom:4
                 strokeTo:2
-                colorFrom: 8ca9e8
+                colorFrom: bf92f9
                 colorTo: ffffff00
             }
         }
@@ -250,13 +250,13 @@ weapons: [
                     {
                         type: WrapEffect
                         effect: dynamicSpikes
-                        color: 8ca9e8
+                        color: bf92f9
                         rotation: 24
                     },
                     {
                         type: WaveEffect
-                        colorFrom: 8ca9e8
-                        colorTo: 8ca9e8
+                        colorFrom: bf92f9
+                        colorTo: bf92f9
                         sizeTo: 180
                         lifetime: 40
                         strokeFrom: 4

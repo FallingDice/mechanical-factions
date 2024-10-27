@@ -20,9 +20,9 @@ loopSoundVolume: 0.6
 loopSound: machine
 
 itemCapacity: 800
-mineSpeed: 8
-mineTier: 3
-buildSpeed: 6
+mineSpeed: 16
+mineTier: 5
+buildSpeed: 12
 payloadCapacity: 2000
 
 deathSound: largeExplosion
@@ -106,28 +106,28 @@ abilities: [
         type: UnitSpawnAbility
         unit: mechanical-launcher
         spawnX: 20
-        spawnY: 24
+        spawnY: 20
         spawnTime: 3000
     },
     {
         type: UnitSpawnAbility
         unit: mechanical-launcher
         spawnX: -20
-        spawnY: 24
+        spawnY: 20
         spawnTime: 3000
     },
     {
         type: UnitSpawnAbility
         unit: mechanical-mage
         spawnX: 20
-        spawnY: 20
+        spawnY: 12
         spawnTime: 4500
     },
     {
         type: UnitSpawnAbility
         unit: mechanical-mage
         spawnX: -20
-        spawnY: 20
+        spawnY: 12
         spawnTime: 4500
     },
     {

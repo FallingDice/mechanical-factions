@@ -1,11 +1,8 @@
-controller: SuicideAI
-
 type: mech
 flying: false
-health: 240
-armor: 2
-hitSize: 8
-range: 40
+health: 300
+armor: 6
+hitSize: 12
 
 outlines: false
 
