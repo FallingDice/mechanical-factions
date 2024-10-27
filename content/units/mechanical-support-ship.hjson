@@ -25,6 +25,9 @@ mineTier: 5
 buildSpeed: 12
 payloadCapacity: 2000
 
+omniMovement: true
+rotateMoveFirst: false
+
 deathSound: largeExplosion
 deathExplosionEffect: [
     {
