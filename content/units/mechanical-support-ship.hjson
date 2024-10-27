@@ -23,6 +23,7 @@ itemCapacity: 800
 mineSpeed: 8
 mineTier: 3
 buildSpeed: 6
+payloadCapacity: 2000
 
 deathSound: laegeExplosion
 deathExplosionEffect: [

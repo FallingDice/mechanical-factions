@@ -11,3 +11,8 @@ This mod is an additional mod for the Flesh Mod.
 
 0.4v
 - balance fetch
+
+0.41v
+- add mechanical-support-ship
+- add new missile
+- add missile weapon to mechanical-battle-ship
