@@ -1,0 +1,66 @@
+type: flying
+flying: true
+speed: 0.1
+health: 50000
+armor: 5
+hitSize: 56
+
+accel: 0.5
+drag: 0.2
+rotateSpeed: 0.1
+outlines: false
+
+engineSize: 7
+engineOffset: 60
+trailLength: 32
+fallSpeed: 0.0018
+crashDamageMultiplier: 1.5
+
+loopSoundVolume: 0.6
+loopSound: machine
+
+deathSound: laegeExplosion
+deathExplosionEffect: [
+    {
+    type: ParticleEffect
+    baseLength: 12
+    length: -6
+    cone: 360
+    particles: 6
+    lifetime: 15
+    sizeFrom: 1.2
+    sizeTo: 0
+    colorFrom: 6d56bf70
+    colorTo: 6d56bf00
+    },
+    {
+    type: ParticleEffect
+    baseLength: 17
+    length: -9
+    cone: 360
+    particles: 3
+    lifetime: 15
+    sizeFrom: 2
+    sizeTo: 0
+    colorFrom: 6d56bf70
+    colorTo: 6d56bf00
+    }
+]
+
+targetFlags: [null]
+mmunities: []
+
+abilities: [
+    {
+        type: RegenAbility
+        amount: 3
+    },
+    {
+        type: ShieldRegenFieldAbility
+        range: 180
+
+        reload: 800
+        amount: 600
+        max: 24000
+    }
+]

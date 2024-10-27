@@ -19,6 +19,9 @@ crashDamageMultiplier: 1.5
 omniMovement: false
 rotateMoveFirst: true
 
+loopSoundVolume: 0.4
+loopSound: machine
+
 mmunities: []
 
 weapons: [
@@ -33,7 +36,7 @@ weapons: [
         y: 0
         reload: 600
         ejectEffect: casing4
-        shootSound: railgun
+        shootSound: largeCannon
 
         shootStatus: slow
 

@@ -16,6 +16,9 @@ trailLength: 32
 fallSpeed: 0.0018
 crashDamageMultiplier: 1.5
 
+loopSoundVolume: 0.6
+loopSound: machine
+
 deathSound: laegeExplosion
 deathExplosionEffect: [
     {
@@ -62,7 +65,7 @@ weapons: [
         y: 0
         reload: 1000
         ejectEffect: casing4
-        shootSound: railgun
+        shootSound: largeCannon
         chargeSound: lasercharge
 
         bullet: {
@@ -195,11 +198,11 @@ abilities: [
         amount: 1
     },
     {
-    type: ShieldRegenFieldAbility
-    range: 60
+        type: ShieldRegenFieldAbility
+        range: 60
 
-    reload: 1000
-    amount: 300
-    max: 12000
+        reload: 1000
+        amount: 300
+        max: 12000
     }
 ]
