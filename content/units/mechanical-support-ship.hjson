@@ -19,6 +19,11 @@ crashDamageMultiplier: 1.5
 loopSoundVolume: 0.6
 loopSound: machine
 
+itemCapacity: 800
+mineSpeed: 8
+mineTier: 3
+buildSpeed: 6
+
 deathSound: laegeExplosion
 deathExplosionEffect: [
     {
@@ -62,5 +67,89 @@ abilities: [
         reload: 800
         amount: 600
         max: 24000
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-striker
+        spawnX: 20
+        spawnY: 32
+        spawnTime: 600
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-striker
+        spawnX: -20
+        spawnY: 32
+        spawnTime: 600
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-fixer
+        spawnX: 20
+        spawnY: 28
+        spawnTime: 900
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-fixer
+        spawnX: -20
+        spawnY: 28
+        spawnTime: 900
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-launcher
+        spawnX: 20
+        spawnY: 24
+        spawnTime: 3000
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-launcher
+        spawnX: -20
+        spawnY: 24
+        spawnTime: 3000
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-mage
+        spawnX: 20
+        spawnY: 20
+        spawnTime: 4500
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-mage
+        spawnX: -20
+        spawnY: 20
+        spawnTime: 4500
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-shooter
+        spawnX: 20
+        spawnY: -32
+        spawnTime: 2000
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-shooter
+        spawnX: -20
+        spawnY: -32
+        spawnTime: 2000
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-eater
+        spawnX: 0
+        spawnY: 20
+        spawnTime: 3000
+    },
+    {
+        type: UnitSpawnAbility
+        unit: mechanical-dual-shooter
+        spawnX: 0
+        spawnY: -20
+        spawnTime: 6000
     }
 ]
