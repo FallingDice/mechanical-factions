@@ -21,3 +21,4 @@ This mod is an additional mod for the Flesh Mod.
 - update mechanical-battle-ship
 - balance fetch
 - add mechanical-tank-head
+- update sprites
