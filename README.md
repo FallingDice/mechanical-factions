@@ -23,7 +23,7 @@ This mod is an additional mod for the Flesh Mod.
 - add mechanical-tank-head
 - update sprites
 
-0.43v
+0.44v
 - remove glow
 
 0.43v
