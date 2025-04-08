@@ -20,18 +20,6 @@ mineSpeed: 2
 mineTier: 1
 buildSpeed: 1
 
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    blending: additive
-    color: 442000
-    mirror: false
-    outline: false
-    layer: 115.1
-  }
-]
-
 weapons: [
     {
         name: mechanical-dual-cannon
