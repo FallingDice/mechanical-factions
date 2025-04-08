@@ -16,18 +16,6 @@ itemCapacity: 5
 
 mmunities: [sapped]
 
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    blending: additive
-    color: 442000
-    mirror: false
-    outline: false
-    layer: 60.1
-  }
-]
-
 weapons: [
     {
         name: small-mechanical-weapon
