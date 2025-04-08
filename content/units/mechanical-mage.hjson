@@ -20,18 +20,6 @@ loopSoundVolume: 0.2
 
 immunities: [wet, burning, melting, disarmed]
 
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    blending: additive
-    color: 442000
-    mirror: false
-    outline: false
-    layer: 60.1
-  }
-]
-
 weapons: [
     {
         rotate: false
