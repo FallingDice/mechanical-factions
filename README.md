@@ -23,9 +23,9 @@ This mod is an additional mod for the Flesh Mod.
 - add mechanical-tank-head
 - update sprites
 
-0.44v
-- remove glow
-
 0.43v
 - add mechanical-drone unit
 - add auto-tracer turret
+
+0.44v
+- remove glow
