@@ -24,5 +24,8 @@ This mod is an additional mod for the Flesh Mod.
 - update sprites
 
 0.43v
+- remove glow
+
+0.43v
 - add mechanical-drone unit
 - add auto-tracer turret
