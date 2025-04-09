@@ -1,4 +1,4 @@
-This mod is an additional mod for the Flesh Mod.
+This mod is my new mod
 
 0.37v
 - sprite update
