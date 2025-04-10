@@ -29,3 +29,6 @@ This mod is my new mod
 
 0.44v
 - remove glow
+
+0.5v
+- update sprites
