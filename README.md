@@ -35,3 +35,6 @@ This mod is my new mod
 
 0.52v
 - bundle update
+
+0.53v
+- sprites update
