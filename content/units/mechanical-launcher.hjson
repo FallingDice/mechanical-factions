@@ -1,7 +1,7 @@
 type: mech
 speed: 0.43
 health: 1800
-armor: 5
+armor: 6
 hitSize: 13
 
 rotateSpeed: 1
@@ -39,8 +39,8 @@ weapons: [
             trailLength: 4.6
             collides: true
             collidesTiles: true
-            splashDamageRadius: 35
-            splashDamage: 40
+            splashDamageRadius: 45
+            splashDamage: 60
 
             shootEffect: shootSmokeSquareBig
             smokeEffect: shootSmokeDisperse
