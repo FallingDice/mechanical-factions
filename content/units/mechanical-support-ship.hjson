@@ -3,7 +3,7 @@ flying: true
 speed: 0.1
 health: 50000
 armor: 8
-hitSize: 56
+hitSize: 40
 
 accel: 0.5
 drag: 0.2
@@ -11,7 +11,7 @@ outlines: false
 rotateSpeed: 0.8
 
 engineSize: 7
-engineOffset: 60
+engineOffset: 34
 trailLength: 32
 fallSpeed: 0.0018
 crashDamageMultiplier: 1.5
@@ -24,6 +24,40 @@ mineSpeed: 16
 mineTier: 5
 buildSpeed: 12
 payloadCapacity: 2000
+
+weapons: [
+    {
+        name: mechanical-railgun
+        faceTarget: false
+        mirror: false
+        top: true
+        rotate: true
+        rotateSpeed: 0.8
+        x: 0
+        y: 0
+        reload: 1200
+        ejectEffect: casing4
+        shootSound: largeCannon
+
+        shootStatus: slow
+
+        bullet: {
+            type: BasicBulletType
+            damage: 1500
+            speed: 10
+            width: 10
+            height: 16
+            lifetime: 60
+            trailWidth: 4
+            trailLength: 8
+
+            shootEffect: shootSmokeSquareBig
+            smokeEffect: shootSmokeDisperse
+            hitEffect: flakExplosion
+            despawnEffect: hitBulletColor
+        }
+    }
+]
 
 deathSound: largeExplosion
 deathExplosionEffect: [
