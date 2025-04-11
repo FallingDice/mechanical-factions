@@ -1,6 +1,6 @@
 type: mech
 speed: 0.6
-health: 460
+health: 300
 armor: 12
 hitSize: 13
 
@@ -124,6 +124,6 @@ weapons: [
 abilities: [
     {
     type: RegenAbility
-    amount: 0.1
+    amount: 0.5
     }
 ]
