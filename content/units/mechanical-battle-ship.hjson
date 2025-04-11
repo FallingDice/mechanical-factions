@@ -193,6 +193,7 @@ weapons: [
         shootSound: missileLarge
         rotate: true
         mirror: true
+        outlines: false
         x: 30
         heatColor: ff0000
 
