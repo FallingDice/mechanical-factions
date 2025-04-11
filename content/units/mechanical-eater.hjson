@@ -48,7 +48,7 @@ weapons: [
 abilities: [
     {
     type: RegenAbility
-    amount: 0.03
+    amount: 0.1
 }
     ]
 
