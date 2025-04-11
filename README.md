@@ -31,4 +31,7 @@ This mod is my new mod
 - remove glow
 
 0.51v
-- update sprites
+- sprites update
+
+0.52v
+- bundle update
