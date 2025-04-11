@@ -54,6 +54,10 @@ abilities: [
       range: 40
       amount: 30
       reload: 300
+    },
+    {
+      type: RegenAbility
+      amount: 0.1
     }
 ]
 
