@@ -2,7 +2,7 @@ controller: SuicideAI
 
 type: mech
 flying: false
-health: 160
+health: 180
 armor: 1
 hitSize: 8
 range: 40
@@ -57,7 +57,7 @@ abilities: [
     },
     {
       type: RegenAbility
-      amount: 0.1
+      amount: 0.03
     }
 ]
 
