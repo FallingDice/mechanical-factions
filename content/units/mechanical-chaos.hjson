@@ -44,5 +44,12 @@ weapons: [
     }
 ]
 
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.1
+}
+    ]
+
 research: mechanical-groundfactory
 researchCostMultiplier: 3
