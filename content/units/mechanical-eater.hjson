@@ -4,7 +4,7 @@ type: flying
 flying: true
 speed: 2
 health: 300
-armor: 2
+armor: 3
 hitSize: 8
 
 circleTarget: true
@@ -48,7 +48,7 @@ weapons: [
 abilities: [
     {
     type: RegenAbility
-    amount: 0.1
+    amount: 0.05
 }
     ]
 
