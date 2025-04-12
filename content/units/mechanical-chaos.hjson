@@ -23,6 +23,7 @@ weapons: [
         shoot: {
           firstShotDelay: 80
         }
+        cooldownTime: 60
 
         bullet: {
             type: BasicBulletType
