@@ -118,5 +118,6 @@ buildVisibility: sandboxOnly
 
 #solid: false
 #customShadow: true
+#hasShadow: true
 
 #drawTeamOverlay: false

@@ -15,5 +15,3 @@ research: {
     parent: core-shard
 }
 researchCostMultiplier: 0.4
-
-//filter: [ultimate-energy]
