@@ -17,7 +17,7 @@ shoot: {
 }
 
 ammoTypes: {
- scrap: {
+ ultimate-energy: {
   type: ArtilleryBulletType
   splashDamageRadius: 30
   splashDamage: 30
@@ -116,8 +116,8 @@ drawer: {
 shootY: 0.5
 buildVisibility: sandboxOnly
 
-#solid: false
+solid: false
 #customShadow: true
-#hasShadow: true
+hasShadow: false
 
 #drawTeamOverlay: false
