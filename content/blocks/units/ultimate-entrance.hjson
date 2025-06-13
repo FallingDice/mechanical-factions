@@ -1,4 +1,4 @@
-type: unitFactory
+type: PayloadDeconstructor
 category: units
 size: 3
 
