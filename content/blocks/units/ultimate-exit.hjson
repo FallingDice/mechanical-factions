@@ -1,0 +1,37 @@
+type: unitFactory
+category: units
+size: 3
+
+health: 100
+
+requirements: [
+    scrap/10
+]
+
+plans: [
+  {
+    unit: mechanical-striker
+    requirements: [ultimate-energy/1]
+    time: 1
+  },
+  {
+    unit: mechanical-fixer
+    requirements: [ultimate-energy/2]
+    time: 1
+  },
+  {
+    unit: mechanical-chaos
+    requirements: [ultimate-energy/1]
+    time: 1
+  },
+  {
+    unit: mechanical-tank-head
+    requirements: [ultimate-energy/10]
+    time: 1
+  }
+]
+
+research: {
+    parent: ultimate-entrance
+}
+researchCostMultiplier: 0.4

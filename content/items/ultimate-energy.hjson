@@ -1,0 +1,9 @@
+name: Ultimate Energy
+description: bang!
+color: ffffff
+
+flammability: 1
+explosiveness: 1
+lowPriority: false
+
+research: core-shard

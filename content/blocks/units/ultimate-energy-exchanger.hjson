@@ -1,0 +1,29 @@
+type: GenericCrafter
+category: units
+size: 3
+
+health: 100
+
+requirements: [
+    scrap/10
+]
+
+outputItem: ultimate-energy/1
+consumes: {
+  items: {
+    items: [
+      scrap/5
+    ]
+  }
+}
+craftTime: 300
+
+hasPower: false
+hasLiquids: false
+
+craftEffect: blastExplosion
+craftSound: drillImpact
+
+research: core-shard
+researchCostMultiplier: 0.3
+

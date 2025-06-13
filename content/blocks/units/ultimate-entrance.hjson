@@ -1,0 +1,19 @@
+type: unitFactory
+category: units
+size: 3
+
+health: 100
+
+requirements: [
+    scrap/10
+]
+
+itemCapacity: 100
+deconstructSpeed: 1
+
+research: {
+    parent: core-shard
+}
+researchCostMultiplier: 0.4
+
+//filter: [ultimate-energy]
