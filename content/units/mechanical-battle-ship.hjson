@@ -8,7 +8,6 @@ hitSize: 56
 accel: 0.5
 drag: 0.2
 rotateSpeed: 0.1
-outlines: false
 
 engineSize: 7
 engineOffset: 60

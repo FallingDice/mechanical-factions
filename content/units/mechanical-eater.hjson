@@ -14,7 +14,6 @@ drag: 0.03
 rotateSpeed: 4
 engineOffset: 8.4
 trailLength: 7.5
-outlines: false
 
 crashDamageMultiplier: 1.5
 
