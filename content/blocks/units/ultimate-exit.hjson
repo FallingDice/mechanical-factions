@@ -28,6 +28,21 @@ plans: [
     unit: mechanical-tank-head
     requirements: [ultimate-energy/10]
     time: 1
+  },
+  {
+    unit: mechanical-drone
+    requirements: [ultimate-energy/4]
+    time: 1
+  },
+  {
+    unit: mechanical-shooter
+    requirements: [ultimate-energy/12]
+    time: 1
+  },
+  {
+    unit: mechanical-eater
+    requirements: [ultimate-energy/12]
+    time: 1
   }
 ]
 

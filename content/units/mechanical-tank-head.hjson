@@ -17,7 +17,7 @@ weapons: [
         rotate: true
         rotateSpeed: 0.8
         x: 0
-        y: 0
+        y: -6
         reload: 150
         mirror: false
         shootSound: artillery
@@ -53,6 +53,7 @@ weapons: [
         mirror: true
         shootSound: pew
         targetAir: true
+        shootSound: bolt
 
         bullet: {
             type: BasicBulletType
@@ -80,6 +81,7 @@ weapons: [
         mirror: true
         shootSound: pew
         targetAir: true
+        shootSound: bolt
 
         bullet: {
             type: BasicBulletType
@@ -87,10 +89,18 @@ weapons: [
             speed: 6
             lifetime: 35
             knockback: 0.2
+
+            trailLength: 13
             trailWidth: 2
-            trailLength: 3
-            shootEffect: shootSmokeSquare
-            smokeEffect: shootSmokeDisperse
+
+            trailInterp: slope
+
+            shrinkX: 0.2
+            shrinkY: 0.6
+
+            //basic effect
+            shootEffect: sparkShoot
+            smokeEffect: shootBigSmoke
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
 
