@@ -29,8 +29,8 @@ parts: [
             moves: [
               {
                 type: partMove
-                progress: recoil
-                y: -1
+                progress: reload
+                moveRot: -10
               }
             ]
           }
@@ -56,7 +56,7 @@ weapons: [
             height: 6
             lifetime: 30
             trailWidth: 2
-            trailLength: 3
+            trailLength: 8
 
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
