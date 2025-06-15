@@ -14,6 +14,7 @@ itemCapacity: 5
 weapons: [
     {
         name: mechanical-tank-head-mount
+        top: false
         rotate: true
         rotateSpeed: 0.8
         x: 0
@@ -71,11 +72,11 @@ weapons: [
     },
     {
         name: mechanical-tank-head-weapon
-        x: 8
+        x: 0
         y: 0
-        shootX: 8
-        shootY: -2
-        reload: 25
+        shootX: 16
+        shootY: -4
+        reload: 35
         mirror: true
         shootSound: pew
         targetAir: true
@@ -101,10 +102,10 @@ weapons: [
             progress: warmup
             suffix: -barrel
             mirror: false
-            moveX: 8
-            moveY:-2
+            moveX: 16
+            moveY:-4
             moveRot: 0
-            layerOffset: 0.01
+            layerOffset: -0.01
             heatLayerOffset: 0.05
             moves: [
               {
