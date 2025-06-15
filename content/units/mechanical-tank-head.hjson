@@ -14,7 +14,6 @@ itemCapacity: 5
 weapons: [
     {
         name: mechanical-tank-head-mount
-        top: false
         rotate: true
         rotateSpeed: 0.8
         x: 0
@@ -45,6 +44,7 @@ weapons: [
     },
     {
         name: mechanical-tank-head-barrel
+        top: false
         rotate: false
         rotateSpeed: 3
         x: 8
