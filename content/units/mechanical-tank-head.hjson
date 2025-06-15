@@ -45,12 +45,12 @@ weapons: [
     },
     {
         name: mechanical-tank-head-barrel
-        rotate: true
+        rotate: false
         rotateSpeed: 3
-        x: 0
+        x: 4
         y: 0
         reload: 25
-        mirror: false
+        mirror: true
         shootSound: pew
         targetAir: true
 
@@ -69,6 +69,26 @@ weapons: [
 
             collidesAir: true
         }
+        parts: [
+            {
+            type: RegionPart
+            progress: warmup
+            suffix: -barrel
+            mirror: true
+            moveX: 2
+            moveY:-2
+            moveRot: 0
+            layerOffset: 0.01
+            heatLayerOffset: 0.05
+            moves: [
+              {
+                type: partMove
+                progress: recoil
+                y: -1
+              }
+            ]
+          }
+        ]
     }
 ]
 
