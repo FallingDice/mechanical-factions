@@ -46,8 +46,35 @@ weapons: [
         name: mechanical-tank-head-barrel
         rotate: false
         rotateSpeed: 3
-        x: 4
+        x: 8
         y: 0
+        reload: 25
+        mirror: true
+        shootSound: pew
+        targetAir: true
+
+        bullet: {
+            type: BasicBulletType
+            damage: 5
+            speed: 6
+            lifetime: 35
+            knockback: 0.2
+            trailWidth: 2
+            trailLength: 3
+            shootEffect: shootSmokeSquare
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+
+            collidesAir: true
+        }
+    },
+    {
+        name: mechanical-tank-head-weapon
+        x: 8
+        y: 0
+        shootX: 8
+        shootY: -2
         reload: 25
         mirror: true
         shootSound: pew
@@ -72,10 +99,10 @@ weapons: [
             {
             type: RegionPart
             progress: warmup
-            suffix: -blade
-            mirror: true
+            suffix: -barrel
+            mirror: false
             moveX: 8
-            moveY:0
+            moveY:-2
             moveRot: 0
             layerOffset: 0.01
             heatLayerOffset: 0.05
