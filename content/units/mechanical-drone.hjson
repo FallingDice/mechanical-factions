@@ -18,9 +18,14 @@ itemCapacity: 10
 weapons: [
     {
         mirror: true
-        reload: 20
+        reload: 60
         ejectEffect: casing1
-        shootSound: pew
+        shootSound: bolt
+
+        shoot: {
+            shots: 3
+            shotDelay: 10
+        }
 
         bullet: {
             type: BasicBulletType
@@ -35,7 +40,27 @@ weapons: [
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-        }
+        },
+        parts: [
+            {
+            type: RegionPart
+            progress: warmup
+            suffix: -blade
+            mirror: true
+            moveX: 6
+            moveY:-2
+            moveRot: 20
+            layerOffset: 0.01
+            heatLayerOffset: 0.05
+            moves: [
+              {
+                type: partMove
+                progress: recoil
+                y: -1
+              }
+            ]
+          }
+        ]
     }
 ]
 
