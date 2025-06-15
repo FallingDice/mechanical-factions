@@ -20,9 +20,10 @@ parts: [
             type: RegionPart
             progress: warmup
             suffix: -blade
+            mirror: true
             moveX: 6
             moveY:-2
-            moveRot: 20
+            moveRot: -20
             layerOffset: 0.01
             heatLayerOffset: 0.05
             moves: [
