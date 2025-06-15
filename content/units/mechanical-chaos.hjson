@@ -37,8 +37,8 @@ weapons: [
             trailLength: 2
             trailInterp: slope
 
-            shrinkX: 0.2
-            shrinkY: 0.6
+            shrinkX: 0.8
+            shrinkY: 0.1
 
             despawnUnit: mechanical-chaos
             killShooter: true

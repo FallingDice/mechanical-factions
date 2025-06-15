@@ -32,13 +32,13 @@ weapons: [
         layerOffset: -0.01
         shoot: {
             type: shootBarrel
-            shots: 2
+            shots: 6
+            shotDelay: 5
             barrels: [
                 5, 0, 0,
                 -5, 0, 0
             ]
             }
-
         bullet: {
             type: BasicBulletType
             damage: 25

@@ -95,8 +95,8 @@ weapons: [
 
             trailInterp: slope
 
-            shrinkX: 0.2
-            shrinkY: 0.6
+            shrinkX: 0.6
+            shrinkY: 0.2
 
             //basic effect
             shootEffect: sparkShoot

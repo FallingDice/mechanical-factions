@@ -48,12 +48,55 @@ weapons: [
             height: 16
             lifetime: 60
             trailWidth: 4
-            trailLength: 8
+            trailLength: 42
 
             shootEffect: shootSmokeSquareBig
             smokeEffect: shootSmokeDisperse
             hitEffect: flakExplosion
             despawnEffect: hitBulletColor
+        }
+    },
+    {
+        shootCone: 360
+        mirror: true
+        x: 12
+        y: 6
+        shootOnDeath: false
+        controllable: false
+        autoTarget: true
+
+        linearWarmup: true
+        minWarmup: 1
+        shootWarmupSpeed: 0.001
+        smoothReloadSpeed: 0.001
+        faceTarget: false
+        shootSound: missileLarge
+
+        shoot: {
+            shots: 9
+            shotDelay: 5
+        }
+
+        bullet: {
+            type: BasicBulletType
+            shootEffect: none
+            instantDisappear: true
+            damage: 0
+            speed: 0
+            spawnUnit: mechanical-missile
+            killShooter: true
+            rangeOverride: 480
+            shootEffect: {
+                    type: WaveEffect
+                    lifetime: 10
+                    sizeFrom: 10
+                    sizeTo: 0
+                    strokeFrom: 2
+                    strokeTo: 4
+                    colorFrom: ffffffff
+                    colorTo: ff117488
+                    lightColor: ff0000aa
+            }
         }
     }
 ]
