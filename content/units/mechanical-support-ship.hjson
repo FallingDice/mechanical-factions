@@ -45,7 +45,7 @@ weapons: [
             damage: 1500
             speed: 10
             width: 10
-            height: 16
+            height: 20
             lifetime: 60
             trailWidth: 4
             trailLength: 42

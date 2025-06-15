@@ -77,21 +77,21 @@ weapons: [
             damage: 10000
             speed: 30
             width: 10
-            height: 16
+            height: 24
             lifetime: 30
-            trailWidth: 4
-            trailLength: 16
+            trailWidth: 6
+            trailLength: 52
             hitEffect: massiveExplosion
-            splashDamage: 100
+            splashDamage: 800
             splashDamageRadius: 100
             pierce: true
             pierceBuilding: true
             pierceCap: 3
             impact: true
-            lightning: 3
+            lightning: 8
             lightningLength: 6
-            lightningLengthRand: 3
-            lightningDamage: 30
+            lightningLengthRand: 5
+            lightningDamage: 100
 
             status: disarmed
 
