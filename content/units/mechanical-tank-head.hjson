@@ -72,10 +72,10 @@ weapons: [
             {
             type: RegionPart
             progress: warmup
-            suffix: -barrel
+            suffix: mechanical-tank-head-barrel
             mirror: true
-            moveX: 2
-            moveY:-2
+            moveX: 4
+            moveY:0
             moveRot: 0
             layerOffset: 0.01
             heatLayerOffset: 0.05
