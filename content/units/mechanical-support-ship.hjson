@@ -57,7 +57,7 @@ weapons: [
         }
     },
     {
-        shootCone: 360
+        rotate: true
         mirror: true
         x: 12
         y: 6
@@ -74,7 +74,7 @@ weapons: [
 
         shoot: {
             shots: 9
-            shotDelay: 5
+            shotDelay: 10
         }
 
         bullet: {
@@ -84,7 +84,7 @@ weapons: [
             damage: 0
             speed: 0
             spawnUnit: mechanical-missile
-            killShooter: true
+            killShooter: false
             rangeOverride: 480
             shootEffect: {
                     type: WaveEffect
