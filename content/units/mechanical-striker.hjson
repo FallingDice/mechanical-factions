@@ -14,7 +14,7 @@ targetAir: false
 
 itemCapacity: 5
 
-mmunities: [sapped]
+immunities: [sapped]
 
 weapons: [
     {
