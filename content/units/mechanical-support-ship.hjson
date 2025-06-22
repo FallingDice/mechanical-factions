@@ -132,7 +132,7 @@ deathExplosionEffect: [
     }
 ]
 
-mmunities: [
+immunities: [
     wet, tarred, melting, freezing,
     blasted, slow, burning, muddy,
     sapped, shocked, electrified, spore-slowed,
