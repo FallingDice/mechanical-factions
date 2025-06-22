@@ -23,7 +23,7 @@ loopSound: spellLoop
 deathSound: Explosionbig
 deathExplosionEffect: titanExplosion
 
-mmunities: []
+immunities: [sapped]
 
 weapons: [
     {
