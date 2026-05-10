@@ -24,7 +24,7 @@ weapons: [
         y: 0
         reload: 15
         mirror: true
-        shootSound: sap
+        shootSound: shootSap
         recoil: -3
         shootStatus: fast
 

@@ -40,7 +40,7 @@ weapons: [
             shrinkX: 0.8
             shrinkY: 0.1
 
-            despawnUnit: mechanical-chaos
+            despawnUnit: mechanical-striker
             killShooter: true
             
             shootEffect: shootSmokeSquare
