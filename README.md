@@ -3,7 +3,8 @@
 ## ⚙️ JunkTech Industry (WIP)
 "Unleash the power of salvaged technology!"
 
-JunkTech Industry is a faction expansion mod for Mindustry. Build, recycle, and conquer with a unique army of scrap-metal units and specialized structures.
+JunkTech Industry is a faction expansion mod for Mindustry.
+Build, recycle, and conquer with a unique army of scrap-metal units and specialized structures.
 
 
 ### 🚀 Key Features
@@ -27,7 +28,9 @@ This mod is currently Work In Progress (WIP). I am developing this project solo 
 
 
 
-## ⚙️ JunkTech Industry는 Mindustry를 위한 기계 진영 확장 모드입니다. 고철을 재활용하여 만든 강력한 군단과 특수 터릿으로 전장을 지배하세요.
+## ⚙️ JunkTech Industry
+JunkTech Industry는 Mindustry를 위한 기계 진영 확장 모드입니다.
+고철을 재활용하여 만든 강력한 군단과 특수 터릿으로 전장을 지배하세요.
 
 
 ### 🚀 주요 기능
@@ -39,4 +42,6 @@ This mod is currently Work In Progress (WIP). I am developing this project solo 
 
 
 ### ⚠️ 현재 상태
-이 모드는 개발 중(WIP)인 프로젝트입니다. 현재 알려진 Stackoverflowerror 및 기타 오류들을 수정하고 있는 단계이며, 현재는 1인 개발로 진행 중입니다. 별도의 기여(PR)는 받지 않고 있으나, 오류 제보나 의견은 언제나 환영합니다.
+이 모드는 개발 중(WIP)인 프로젝트입니다.
+현재 알려진 Stackoverflowerror 및 기타 오류들을 수정하고 있는 단계이며, 현재는 1인 개발로 진행 중입니다.
+별도의 기여(PR)는 받지 않고 있으나, 오류 제보나 의견은 언제나 환영합니다.
