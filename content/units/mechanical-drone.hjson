@@ -41,7 +41,7 @@ weapons: [
         mirror: true
         reload: 60
         ejectEffect: casing1
-        shootSound: bolt
+        shootSound: shootStell
 
         shoot: {
             shots: 3

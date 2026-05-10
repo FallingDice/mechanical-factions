@@ -45,3 +45,5 @@ JunkTech Industry는 Mindustry를 위한 기계 진영 확장 모드입니다.
 이 모드는 개발 중(WIP)인 프로젝트입니다.
 현재 알려진 Stackoverflowerror 및 기타 오류들을 수정하고 있는 단계이며, 현재는 1인 개발로 진행 중입니다.
 별도의 기여(PR)는 받지 않고 있으나, 오류 제보나 의견은 언제나 환영합니다.
+
+## [discord-link](https://discord.gg/WEtrSxuWPk)

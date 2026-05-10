@@ -5,7 +5,7 @@ flying: false
 health: 180
 armor: 1
 hitSize: 8
-range: 40
+range: 10
 
 useUnitCap: false
 
@@ -39,7 +39,7 @@ weapons: [
             knockback: -0.5
             healPercent: 1
             collidesTeam: true
-            rangeOverride: 30
+            rangeOverride: 80
 
             status: slow
 

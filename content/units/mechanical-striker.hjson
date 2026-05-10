@@ -5,7 +5,7 @@ flying: false
 health: 240
 armor: 2
 hitSize: 8
-range: 40
+range: 10
 
 useUnitCap: false
 
@@ -37,7 +37,7 @@ weapons: [
             length: 10
             lifetime: 20
             knockback: -0.5
-            rangeOverride: 30
+            rangeOverride: 80
 
             status: slow
 
