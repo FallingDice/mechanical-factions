@@ -7,7 +7,7 @@ useUnitCap: false
 
 crashDamageMultiplier: 1.5
 
-deathExplosionEffect: neoplasmSplat
+deathExplosionEffect: sapExplosion
 createScorch: false
 
 weapons: [
