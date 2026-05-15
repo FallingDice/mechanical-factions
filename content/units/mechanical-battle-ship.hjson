@@ -192,6 +192,7 @@ weapons: [
         shootSound: missileLarge
         rotate: true
         mirror: true
+        forceMultiTarget: true
         x: 30
         heatColor: ff0000
 
@@ -221,6 +222,68 @@ weapons: [
             ]
           }
         ]
+    },
+    {
+        shootSound: shootSmite
+        mirror: true
+        reload: 120
+        x: 25
+        y:-53
+        rotate: true
+        rotateSpeed: 1.2
+        ejectEffect: none
+        recoil: 0
+        shootY: 1
+        forceMultiTarget: true
+
+        layerOffset: -0.1
+
+        shoot: {
+          type: shootBarrel
+          firstShotDelay: 24
+          shots: 6
+          shotDelay: 4
+          spread: 11
+          barrels: [
+            -4, 1.5, 0, 4, 1.5, 0,
+            -4, 0, 0, 4, 0, 0,
+            -4, -1.5, 0, 4, -1.5, 0
+          ]
+        }
+
+        bullet: {
+            type: MissileBulletType
+            damage: 180
+            speed: 14
+            width: 7
+            height: 9
+            lifetime: 50
+            shrinkY: 0
+            weaveScale: 8
+            weaveMag: 2
+
+            homingRange: 180
+            homingPower: 0.2
+            homingDelay: 12
+
+            splashDamageRadius: 30
+            splashDamage: 60
+
+            trailWidth: 2.5
+            trailLength: 10
+
+            frontColor: ffffff
+            backColor: ff6000
+            trailColor: ff6000
+
+            shake: 4
+
+            //basic effect
+            shootEffect: sparkShoot
+            smokeEffect: shootBigSmoke
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+        }
     },
     {
         shootCone: 360

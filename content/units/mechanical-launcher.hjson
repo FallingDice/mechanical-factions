@@ -37,6 +37,7 @@ weapons: [
             width: 20
             height: 20
             lifetime: 100
+            speed: 4
             trailWidth: 3
             trailLength: 4.6
             collides: true

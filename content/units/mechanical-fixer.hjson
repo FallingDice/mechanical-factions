@@ -7,6 +7,7 @@ armor: 1
 hitSize: 8
 range: 30
 
+canDrown: false
 useUnitCap: false
 
 crashDamageMultiplier: 1.5
