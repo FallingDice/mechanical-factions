@@ -7,7 +7,7 @@ useUnitCap: false
 
 crashDamageMultiplier: 1.5
 
-deathExplosionEffect: steam
+deathExplosionEffect: neoplasmSplat
 createScorch: false
 
 weapons: [
@@ -18,7 +18,7 @@ weapons: [
         y: 0
         reload: 0
         ejectEffect: casing1
-        shootSound: cannon
+        shootSound: shootAfflict
         shootOnDeath: true
         shoot: {
           firstShotDelay: 80
