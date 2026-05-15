@@ -3,8 +3,6 @@ speed: 1.5
 health: 60
 hitSize: 8
 riseSpeed: 0.2
-accel: 2
-strafePenalty: 0.8
 
 useUnitCap: false
 
@@ -63,7 +61,7 @@ weapons: [
 abilities: [
     {
         type: MoveEffectAbility
-        minVelocity: 1.2
+        minVelocity: 1
         x: 0
         y: -0.4
         effect: artilleryTrailSmoke

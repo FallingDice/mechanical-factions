@@ -227,13 +227,12 @@ weapons: [
         shootSound: shootSmite
         mirror: true
         reload: 120
-        x: 25
-        y:-53
+        x: 10
+        y: 0
         rotate: true
         rotateSpeed: 1.2
         ejectEffect: none
         recoil: 0
-        shootY: 1
         forceMultiTarget: true
 
         layerOffset: -0.1
@@ -273,7 +272,7 @@ weapons: [
             trailLength: 10
 
             frontColor: ffffff
-            backColor: ff6000
+            backColor: ffffff
             trailColor: ff6000
 
             shake: 4
@@ -301,8 +300,8 @@ weapons: [
             type: ExplosionBulletType
             splashDamage: 5000
             splashDamageRadius: 80
-            despawnUnit: mechanical-striker
-            despawnUnitCount: 10
+            despawnUnit: mechanical-drone
+            despawnUnitCount: 100
             despawnUnitRadius: 60
 
             shootEffect: {
