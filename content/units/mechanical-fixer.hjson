@@ -5,7 +5,7 @@ flying: false
 health: 180
 armor: 1
 hitSize: 8
-range: 60
+range: 30
 
 useUnitCap: false
 
