@@ -10,6 +10,9 @@ crashDamageMultiplier: 1.5
 targetAir: false
 
 mechFrontSway: 0.55
+stepSound: mechStepSmall
+stepSoundPitch: 0.8
+stepSoundVolume: 0.65
 
 itemCapacity: 60
 mineSpeed: 1
@@ -25,7 +28,7 @@ weapons: [
         reload: 80
         recoil: 1
         ejectEffect: casing2
-        shootSound: artillery
+        shootSound: shootArtillery
 
         bullet: {
             type: ArtilleryBulletType
@@ -44,7 +47,7 @@ weapons: [
             shootEffect: shootSmokeSquareBig
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
-            despawnEffect: hitBulletColor
+            despawnEffect: spawn
 
             despawnUnit: mechanical-chaos
         }
@@ -53,7 +56,7 @@ weapons: [
 
 abilities: [
     {
-    type: RegenAbility
-    amount: 0.3
-}
-    ]
+        type: RegenAbility
+        amount: 0.3
+    }
+]

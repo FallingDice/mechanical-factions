@@ -1,7 +1,10 @@
 type: mech
-speed: 0.5
+speed: 1.3
 health: 60
 hitSize: 8
+riseSpeed: 0.2
+accel: 2
+strafePenalty: 0.1
 
 useUnitCap: false
 
@@ -26,12 +29,17 @@ weapons: [
         cooldownTime: 60
 
         bullet: {
-            type: BasicBulletType
+            type: ArtilleryBulletType
+            splashDamageRadius: 10
+            splashDamage: 5
             damage: 15
-            speed: 5
-            width: 5
-            height: 5
+            speed: 6
+            width: 10
+            height: 10
             lifetime: 30
+            knockback: 5
+            collides: true
+            collidesTiles: true
 
             trailWidth: 13
             trailLength: 2
@@ -46,17 +54,27 @@ weapons: [
             shootEffect: shootSmokeSquare
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
-            despawnEffect: hitBulletColor
+            despawnEffect: spawn
+            despawnSound: boom
         }
     }
 ]
 
 abilities: [
     {
-    type: RegenAbility
-    amount: 0.1
-}
-    ]
+        type: MoveEffectAbility
+        minVelocity: 1.4
+        x: 0
+        y: -0.4
+        effect: artilleryTrailSmoke
+        teamColor: true
+        interval: 2
+    },
+    {
+        type: RegenAbility
+        amount: 0.1
+    }
+]
 
 research: mechanical-groundfactory
 researchCostMultiplier: 3
