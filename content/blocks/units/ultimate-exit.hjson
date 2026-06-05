@@ -11,7 +11,7 @@ requirements: [
 plans: [
   {
     unit: mechanical-striker
-    requirements: [ultimate-energy/1]
+    requirements: [mec-striker-item/1]
     time: 1
   },
   {
