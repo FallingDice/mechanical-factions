@@ -10,7 +10,6 @@ range: 30
 canDrown: false
 useUnitCap: false
 
-buildingDamageMultiplier: 1.5
 targetAir: false
 
 itemCapacity: 5
@@ -36,7 +35,8 @@ weapons: [
             length: 10
             lifetime: 20
             knockback: -0.5
-            rangeOverride: 80
+            rangeOverride: 240
+            buildingDamageMultiplier: 1.5
 
             status: slow
 
@@ -62,7 +62,7 @@ weapons: [
             speed: 0
             spawnUnit: mec-striker-broken
             killShooter: true
-            rangeOverride: 480
+            rangeOverride: 240
         }
     }
 ]

@@ -9,7 +9,6 @@ range: 30
 
 useUnitCap: false
 
-buildingDamageMultiplier: 1.5
 targetAir: false
 
 itemCapacity: 5
@@ -35,7 +34,8 @@ weapons: [
             length: 10
             lifetime: 20
             knockback: -0.5
-            rangeOverride: 80
+            rangeOverride: 240
+            buildingDamageMultiplier: 1.5
 
             status: slow
 
@@ -62,7 +62,7 @@ weapons: [
             splashDamageRadius: 60
             buildingDamageMultiplier: 1.5
             killShooter: true
-            rangeOverride: 240
+            rangeOverride: 120
         }
     }
 ]
