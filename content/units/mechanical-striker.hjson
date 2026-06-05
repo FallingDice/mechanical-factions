@@ -33,7 +33,7 @@ parts: [
               {
                 type: partMove
                 progress: reload
-                moveY: 1
+                moveY: 2
               }
             ]
           },
@@ -46,11 +46,14 @@ parts: [
             smoothReloadSpeed: 0.001
             suffix: -reactor
             mirror: true
-            x: 3
+            x: 4
+            y: 2
             rot: 45
             moveX: 1
             moveY: 1
-            moveRot: 0
+            moveRot: 45
+            growX: 0.3
+            growY: 0.3
             layerOffset: -0.02
             heatLayerOffset: 0.05
             moves: [
