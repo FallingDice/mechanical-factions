@@ -15,8 +15,6 @@ targetAir: false
 
 itemCapacity: 5
 
-immunities: [sapped]
-
 weapons: [
     {
         name: small-mechanical-weapon

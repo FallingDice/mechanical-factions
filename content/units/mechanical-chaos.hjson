@@ -1,5 +1,5 @@
 type: mech
-speed: 1.5
+speed: 2
 health: 60
 hitSize: 8
 riseSpeed: 0.2

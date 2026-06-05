@@ -51,8 +51,8 @@ weapons: [
 
         linearWarmup: true
         minWarmup: 1
-        shootWarmupSpeed: 0.003
-        smoothReloadSpeed: 0.003
+        shootWarmupSpeed: 0.005
+        smoothReloadSpeed: 0.005
         faceTarget: false
         shootSound: explosionCleroi
         bullet: {
@@ -62,7 +62,7 @@ weapons: [
             splashDamageRadius: 60
             buildingDamageMultiplier: 1.5
             killShooter: true
-            rangeOverride: 120
+            rangeOverride: 240
         }
     }
 ]
