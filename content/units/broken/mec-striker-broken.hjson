@@ -2,20 +2,17 @@ controller: SuicideAI
 
 type: mech
 flying: false
-health: 240
-armor: 2
+health: 120
+armor: 0
 hitSize: 8
 range: 30
 
-canDrown: false
 useUnitCap: false
 
 crashDamageMultiplier: 1.5
 targetAir: false
 
 itemCapacity: 5
-
-immunities: [sapped]
 
 weapons: [
     {
@@ -27,7 +24,7 @@ weapons: [
         mirror: true
         shootSound: shootSap
         recoil: -3
-        shootStatus: fast
+        shootStatus: overdrive
 
         bullet: {
             type: SapBulletType
@@ -54,19 +51,18 @@ weapons: [
 
         linearWarmup: true
         minWarmup: 1
-        shootWarmupSpeed: 0.0001
-        smoothReloadSpeed: 0.0001
+        shootWarmupSpeed: 0.00015
+        smoothReloadSpeed: 0.00015
         faceTarget: false
-        shootSound: none
+        shootSound: explosionCleroi
         bullet: {
-            type: BasicBulletType
+            type: ExplosionBulletType
             shootEffect: sparkExplosion
-            instantDisappear: true
-            damage: 0
-            speed: 0
-            spawnUnit: mec-striker-broken
+            splashDamage: 30
+            splashDamageRadius: 40
+            buildingDamageMultiplier: 1.5
             killShooter: true
-            rangeOverride: 480
+            rangeOverride: 120
         }
     }
 ]
@@ -74,7 +70,7 @@ weapons: [
 abilities: [
     {
     type: RegenAbility
-    amount: 0.04
+    amount: -0.04
     }
 ]
 
