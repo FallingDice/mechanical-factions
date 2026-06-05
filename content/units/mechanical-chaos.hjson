@@ -11,6 +11,40 @@ crashDamageMultiplier: 1.5
 deathExplosionEffect: sapExplosion
 createScorch: false
 
+parts: [
+            {
+            type: RegionPart
+            progress: warmup
+            linearWarmup: true
+            minWarmup: 1
+            shootWarmupSpeed: 0.001
+            smoothReloadSpeed: 0.001
+            suffix: -reactor
+            mirror: false
+            y: 1
+            moveX: 0
+            moveY: -2
+            moveRot: 0
+            growX: 0.3
+            growY: 0.3
+            layerOffset: -0.01
+            heatLayerOffset: 0.05
+          },
+          {
+            type: RegionPart
+            progress: warmup
+            suffix: -reactor
+            mirror: true
+            x: 0
+            y: -1
+            moveX: 3
+            moveY: 1
+            moveRot: 90
+            layerOffset: -0.02
+            heatLayerOffset: 0.05
+          }
+]
+
 weapons: [
     {
         rotate: true

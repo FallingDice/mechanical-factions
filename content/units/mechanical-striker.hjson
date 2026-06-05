@@ -46,7 +46,7 @@ parts: [
             layerOffset: -0.02
             heatLayerOffset: 0.05
           }
-        ]
+]
 
 weapons: [
     {
