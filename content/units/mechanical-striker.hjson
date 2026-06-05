@@ -24,9 +24,9 @@ parts: [
             smoothReloadSpeed: 0.001
             suffix: -reactor
             mirror: false
-            y: -1
+            y: 1
             moveX: 0
-            moveY: 2
+            moveY: -2
             moveRot: 0
             growX: 0.3
             growY: 0.3
@@ -43,9 +43,9 @@ parts: [
             suffix: -reactor
             mirror: true
             x: 0
-            y: 2
+            y: -2
             moveX: 1
-            moveY: -1
+            moveY: 1
             moveRot: 45
             layerOffset: -0.02
             heatLayerOffset: 0.05
