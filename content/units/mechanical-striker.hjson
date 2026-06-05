@@ -49,18 +49,18 @@ weapons: [
         shootCone: 360
         mirror: false
         shootOnDeath: false
-        controllable: false
-        autoTarget: true
+        controllable: true
+        autoTarget: false
 
         linearWarmup: true
         minWarmup: 1
-        shootWarmupSpeed: 0.001
-        smoothReloadSpeed: 0.001
+        shootWarmupSpeed: 0.0003
+        smoothReloadSpeed: 0.0003
         faceTarget: false
         shootSound: none
         bullet: {
             type: BasicBulletType
-            shootEffect: sparkExplosion
+            shootEffect: blastExplosion
             instantDisappear: true
             damage: 0
             speed: 0

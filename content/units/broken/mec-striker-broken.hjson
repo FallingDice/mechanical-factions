@@ -57,9 +57,9 @@ weapons: [
         shootSound: explosionCleroi
         bullet: {
             type: ExplosionBulletType
-            shootEffect: sparkExplosion
+            shootEffect: blastExplosion
             splashDamage: 30
-            splashDamageRadius: 40
+            splashDamageRadius: 60
             buildingDamageMultiplier: 1.5
             killShooter: true
             rangeOverride: 120
