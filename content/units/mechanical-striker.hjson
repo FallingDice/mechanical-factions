@@ -36,17 +36,13 @@ parts: [
           {
             type: RegionPart
             progress: warmup
-            linearWarmup: true
-            minWarmup: 1
-            shootWarmupSpeed: 0.001
-            smoothReloadSpeed: 0.001
             suffix: -reactor
             mirror: true
             x: 0
-            y: -2
-            moveX: 1
+            y: -1
+            moveX: 3
             moveY: 1
-            moveRot: 45
+            moveRot: 90
             layerOffset: -0.02
             heatLayerOffset: 0.05
           }
