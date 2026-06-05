@@ -24,7 +24,7 @@ weapons: [
         mirror: true
         shootSound: shootSap
         recoil: -3
-        shootStatus: [fast, overdrive]
+        shootStatus: overdrive
 
         bullet: {
             type: SapBulletType
