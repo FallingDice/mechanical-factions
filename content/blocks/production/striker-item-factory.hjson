@@ -11,8 +11,13 @@ requirements: [scrap/500]
 outputItem: mec-striker-item/1
 
 consumes: {
+  power: 1
   items: {
     items: [scrap/5]
+  }
+  liquid: {
+        liquid: water
+        amount: 0.1
   }
 }
 
