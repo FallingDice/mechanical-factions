@@ -24,7 +24,7 @@ weapons: [
         mirror: true
         shootSound: shootSap
         recoil: -3
-        shootStatus: overdrive
+        shootStatus: [fast, overdrive]
 
         bullet: {
             type: SapBulletType
@@ -46,13 +46,13 @@ weapons: [
         shootCone: 360
         mirror: false
         shootOnDeath: false
-        controllable: false
+        controllable: true
         autoTarget: true
 
         linearWarmup: true
         minWarmup: 1
-        shootWarmupSpeed: 0.00015
-        smoothReloadSpeed: 0.00015
+        shootWarmupSpeed: 0.003
+        smoothReloadSpeed: 0.003
         faceTarget: false
         shootSound: explosionCleroi
         bullet: {
