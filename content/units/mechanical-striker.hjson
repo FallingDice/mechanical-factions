@@ -14,6 +14,31 @@ targetAir: false
 
 itemCapacity: 5
 
+parts: [
+            {
+            type: RegionPart
+            progress: warmup
+            linearWarmup: true
+            minWarmup: 1
+            shootWarmupSpeed: 0.001
+            smoothReloadSpeed: 0.001
+            suffix: -reactor
+            mirror: false
+            moveX: 0
+            moveY:-3
+            moveRot: 0
+            layerOffset: 0.01
+            heatLayerOffset: 0.05
+            moves: [
+              {
+                type: partMove
+                progress: reload
+                moveX: 1
+              }
+            ]
+          }
+        ]
+
 weapons: [
     {
         name: small-mechanical-weapon
